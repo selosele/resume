@@ -8,13 +8,14 @@
 import { useUiTextStore } from '@/store/ui-text';
 
 const uiTextStore = useUiTextStore();
+
 uiTextStore.uiText = uiTextStore.getUiText();
 
 useSeoMeta({
-  title: uiTextStore.uiText?.title,
-  ogTitle: uiTextStore.uiText?.title,
-  description: uiTextStore.uiText?.description,
-  ogDescription: uiTextStore.uiText?.description,
+  title: uiTextStore.uiText['title'],
+  ogTitle: uiTextStore.uiText['title'],
+  description: uiTextStore.uiText['description'],
+  ogDescription: uiTextStore.uiText['description'],
 });
 
 useHead({

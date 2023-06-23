@@ -1,6 +1,6 @@
 <template>
   <footer class="mt-6 pt-3 pl-3 pr-3 pb-6 border-t-4 border-grey-900">
-    {{ uiTextStore.uiText?.title }}
+    {{ uiTextStore.uiText['title'] }}
   </footer>
 </template>
 
