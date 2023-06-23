@@ -1,11 +1,32 @@
 {
   "title": "오세현의 이력서",
   "description": "1년차 SW 개발자 오세현의 이력서입니다.",
-  "profileImage": "assets/images/kaom6sp3rtvudz7ryhhf.jpg",
-  "introduction": "",
+  "profileImage": "assets/images/profile1.jpg",
   "koName": "오세현",
   "enName": "Sehyun Oh",
-  "phone": "01055943384",
+  "phone": "010-5594-3384",
   "mail": "gwiazda762@gmail.com",
-  "github": "https://github.com/selosele"
+  "github": "https://github.com/selosele",
+  "area": "대전광역시",
+  "introduction": {
+    "label": "간략한 소개",
+    "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in sit maiores, eum aut cumque culpa reprehenderit soluta similique, doloribus corrupti cupiditate, a quia laboriosam. Unde nesciunt possimus culpa dignissimos? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in sit maiores, eum aut cumque culpa reprehenderit soluta similique, doloribus corrupti cupiditate, a quia laboriosam. Unde nesciunt possimus culpa dignissimos?"
+  },
+  "skils": {
+    "label": "보유 기술",
+    "text": [
+      {
+        "label": "back-end",
+        "text": ["Java", "Spring Boot", "Express.js", "Nest.js"]
+      },
+      {
+        "label": "front-end",
+        "text": ["Angular", "Vue.js", "TypeScript", "JavaScript", "jQuery", "JSP"]
+      },
+      {
+        "label": "DBMS",
+        "text": ["MySQL", "MariaDB", "MSSQL", "Oracle"]
+      }
+    ]
+  }
 }
