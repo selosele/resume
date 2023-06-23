@@ -11,11 +11,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        grey01: '#fff',
-        grey02: '#fbfbfb',
-        grey03: '#a2a2a2',
-      },
       fontFamily: {
         sans: ['Noto Sans KR', 'sans-serif'],
       },
