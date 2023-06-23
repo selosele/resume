@@ -1,12 +1,12 @@
 <template>
-  <profile-top />
-
-  <profile-bottom />
+  <h4 class="font-bold">
+    <slot />
+  </h4>
 </template>
 
 <script>
 export default {
-
+  
 }
 </script>
 

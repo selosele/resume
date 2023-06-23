@@ -1,12 +1,12 @@
 <template>
-  <profile-top />
-
-  <profile-bottom />
+  <div class="overflow-hidden mb-20">
+    <slot />
+  </div>
 </template>
 
 <script>
 export default {
-
+  
 }
 </script>
 
