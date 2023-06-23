@@ -1,6 +1,7 @@
 /** 기본 SCSS */
 
 body {
-  @apply bg-grey02;
+  @apply bg-stone-50;
+  @apply text-lg;
   font-family: theme('fontFamily.sans');
 }
