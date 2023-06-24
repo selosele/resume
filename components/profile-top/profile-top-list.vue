@@ -1,6 +1,6 @@
 <template>
-  <h2 class="text-4xl text-blue-900 tracking-widest font-bold">
-    {{ uiTextStore.uiText['koName'] }}
+  <h2 :class="['text-4xl', 'text-blue-900', 'tracking-widest', 'font-bold']">
+    {{ uiTextStore.json['name'] }}
   </h2>
   
   <ul class="mt-5 text-xl">
@@ -18,10 +18,10 @@ import { useUiTextStore } from "@/store/ui-text";
 const uiTextStore = useUiTextStore();
 
 const list = [
-  { icon: 'xi-call', text: uiTextStore.uiText['phone'], },
-  { icon: 'xi-mail-o', text: uiTextStore.uiText['mail'], },
-  { icon: 'xi-github', text: uiTextStore.uiText['github'], },
-  { icon: 'xi-maker', text: uiTextStore.uiText['area'], },
+  { icon: 'xi-call', text: uiTextStore.json['phone'], },
+  { icon: 'xi-mail-o', text: uiTextStore.json['mail'], },
+  { icon: 'xi-github', text: uiTextStore.json['github'], },
+  { icon: 'xi-maker', text: uiTextStore.json['area'], },
 ];
 </script>
 
