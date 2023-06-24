@@ -1,4 +1,6 @@
 <template>
+  <layout-navigation-bar />
+  
   <ui-container>
     <layout-header />
 
