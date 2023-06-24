@@ -1,18 +1,13 @@
 <template>
-  <button :type="type">
+  <ui-button class="flex justify-center items-center">
     <ui-icon :name="icon" />
     <slot />
-  </button>
+  </ui-button>
 </template>
 
 <script>
 export default {
   props: {
-    /** 버튼 Type */
-    type: {
-      type: String,
-      default: 'button'
-    },
     /** 아이콘 클래스명 */
     icon: String,
   },
