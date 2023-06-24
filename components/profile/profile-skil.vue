@@ -1,11 +1,11 @@
 <template>
   <profile-bottom-group>
     <profile-bottom-label-level-1>
-      {{ uiTextStore.uiText['skils'].label }}
+      {{ uiTextStore.json['skil'].label }}
     </profile-bottom-label-level-1>
 
     <profile-bottom-text>
-      <profile-skils-list-item
+      <profile-skil-list-item
         v-for="(item,i) in list" :key="i"
         :label="item.label"
         :text="item.text"
@@ -20,7 +20,7 @@ import { UiTextGroup } from '@/types/ui-text';
 
 const uiTextStore = useUiTextStore();
 
-const list = uiTextStore.uiText['skils'].text as UiTextGroup[];
+const list = uiTextStore.json['skil'].text as UiTextGroup[];
 </script>
 
 <style lang="scss" scoped>
