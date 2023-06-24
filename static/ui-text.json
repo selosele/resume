@@ -1,8 +1,10 @@
 {
+  "theme": "default",
+  "downloadButtonName": "이력서 JPG 다운로드",
   "title": "오세현의 이력서",
-  "description": "1년차 웹 개발자 오세현의 이력서입니다.",
+  "description": "2년차 웹 개발자 오세현의 이력서입니다.",
   "profileImage": "assets/images/profile1.jpg",
-  "koName": "오세현",
+  "name": "오세현",
   "enName": "Sehyun Oh",
   "phone": "010-5594-3384",
   "mail": "gwiazda762@gmail.com",
@@ -14,7 +16,7 @@
     "label": "간략한 소개",
     "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in sit maiores, eum aut cumque culpa reprehenderit soluta similique, doloribus corrupti cupiditate, a quia laboriosam. Unde nesciunt possimus culpa dignissimos? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in sit maiores, eum aut cumque culpa reprehenderit soluta similique, doloribus corrupti cupiditate, a quia laboriosam. Unde nesciunt possimus culpa dignissimos?"
   },
-  "skils": {
+  "skil": {
     "label": "보유 기술",
     "text": [
       {
@@ -30,5 +32,30 @@
         "text": ["MySQL", "MariaDB", "MSSQL", "Oracle"]
       }
     ]
-  }
+  },
+  "project": [
+    {
+      "label": "프로젝트<br>23.06 ~ 24.01<br>아이비데이타<br>SI사업부 대리",
+      "text": [
+        {
+          "label": "2023년도 국가과학기술 지식정보서비스 구축 및 데이터 수집/연계/정제/품질 관리체계 구축",
+          "text": [
+            "Spring, JSP, jQuery, Oracle",
+            "NTIS 홈페이지 기능 개발"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "프로젝트<br>22.08 ~ 23.06<br>아이비데이타<br>SI사업부 대리",
+      "text": [
+        {
+          "label": "KARI 차세대 행정정보시스템 구축 사업",
+          "text": [
+            "Spring Boot, Angular, TypeScript, MSSQL"
+          ]
+        }
+      ]
+    }
+  ]
 }
