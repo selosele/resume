@@ -1,12 +1,12 @@
 <template>
   <profile-bottom-group>
     <profile-bottom-label-level-1>
-      {{ uiTextStore.uiText['introduction'].label }}
+      {{ uiTextStore.json['introduction'].label }}
     </profile-bottom-label-level-1>
 
     <profile-bottom-text>
       <p>
-        {{ uiTextStore.uiText['introduction'].text }}
+        {{ uiTextStore.json['introduction'].text }}
       </p>
     </profile-bottom-text>
   </profile-bottom-group>

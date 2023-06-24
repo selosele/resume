@@ -1,5 +1,7 @@
 <template>
-  <h3 class="float-left w-32 mr-8 text-2xl text-blue-900 font-bold">
+  <h3 :class="['w-56', 'mr-8', 'pl-10', 'float-left', 'leading-9',
+               'text-2xl', 'text-blue-900', 'font-bold']"
+  >
     <slot />
   </h3>
 </template>
