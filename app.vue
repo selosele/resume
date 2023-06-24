@@ -12,13 +12,13 @@ import { useLayoutStore } from '@/store/layout';
 const uiTextStore = useUiTextStore();
 const layoutStore = useLayoutStore();
 
-uiTextStore.uiText = uiTextStore.getUiText();
+uiTextStore.loadUiText();
 
 useSeoMeta({
-  title: uiTextStore.uiText['title'],
-  ogTitle: uiTextStore.uiText['title'],
-  description: uiTextStore.uiText['description'],
-  ogDescription: uiTextStore.uiText['description'],
+  title: uiTextStore.json['title'],
+  ogTitle: uiTextStore.json['title'],
+  description: uiTextStore.json['description'],
+  ogDescription: uiTextStore.json['description'],
 });
 
 useHead({
@@ -35,8 +35,8 @@ useHead({
 
 let previousScrollY = 0;
 
-/** 윈도우 스크롤 이벤트 */
-const handleScroll = () => {
+/** 윈도우 스크롤 */
+const onScroll = (): void => {
   const currentScrollY = window.scrollY;
 
   // 아래로 스크롤될 때
@@ -52,11 +52,11 @@ const handleScroll = () => {
 };
 
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll);
+  window.addEventListener('scroll', onScroll);
 });
 
 onUnmounted(() => {
-  window.removeEventListener('scroll', handleScroll);
+  window.removeEventListener('scroll', onScroll);
 });
 </script>
 
