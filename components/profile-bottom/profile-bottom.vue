@@ -1,11 +1,14 @@
 <template>
-  <div class="ml-10 pl-10 pr-10">
+  <div class="pl-10 pr-10">
 
     <!-- 간략한 소개 -->
     <profile-introduction />
 
     <!-- 보유 기술 -->
-    <profile-skils />
+    <profile-skil />
+
+    <!-- 프로젝트 -->
+    <profile-project />
     
   </div>
 </template>
