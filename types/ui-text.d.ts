@@ -28,6 +28,12 @@ export interface UiText {
   /** 지역 */
   area?: string;
 
+  /** 직업 */
+  job?: string;
+
+  /** 직업 영문명 */
+  enJob?: string;
+
   /** 소개 */
   introduction?: UiTextGroup;
 

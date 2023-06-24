@@ -1,6 +1,6 @@
 {
   "title": "오세현의 이력서",
-  "description": "1년차 SW 개발자 오세현의 이력서입니다.",
+  "description": "1년차 웹 개발자 오세현의 이력서입니다.",
   "profileImage": "assets/images/profile1.jpg",
   "koName": "오세현",
   "enName": "Sehyun Oh",
@@ -8,6 +8,8 @@
   "mail": "gwiazda762@gmail.com",
   "github": "https://github.com/selosele",
   "area": "대전광역시",
+  "job": "웹 개발자",
+  "enJob": "Web Programmer",
   "introduction": {
     "label": "간략한 소개",
     "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in sit maiores, eum aut cumque culpa reprehenderit soluta similique, doloribus corrupti cupiditate, a quia laboriosam. Unde nesciunt possimus culpa dignissimos? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati in sit maiores, eum aut cumque culpa reprehenderit soluta similique, doloribus corrupti cupiditate, a quia laboriosam. Unde nesciunt possimus culpa dignissimos?"
@@ -17,11 +19,11 @@
     "text": [
       {
         "label": "back-end",
-        "text": ["Java", "Spring Boot", "Express.js", "Nest.js"]
+        "text": ["Java", "Spring Boot", "Express.js", "NestJS"]
       },
       {
         "label": "front-end",
-        "text": ["Angular", "Vue.js", "TypeScript", "JavaScript", "jQuery", "JSP"]
+        "text": ["Angular", "Vue.js", "TypeScript", "JavaScript(ES6)", "jQuery", "JSP"]
       },
       {
         "label": "DBMS",
