@@ -6,7 +6,7 @@
 
     <profile-bottom-text>
       <profile-project-list-item
-        v-for="(item2,i) in (item.text as UiTextGroup[])" :key="i"
+        v-for="(item2,j) in (item.text as UiTextGroup[])" :key="j"
         :label="item2.label"
         :text="item2.text"
       />

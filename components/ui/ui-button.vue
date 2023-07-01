@@ -1,7 +1,7 @@
 <template>
   <button
     type="button"
-    :class="['text-slate-50', 'border-solid border border-transparent', 'transition',
+    :class="['text-slate-50 border-solid border border-transparent transition',
              { 'rounded-full': rounded }]"
   >
     <slot />

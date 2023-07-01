@@ -1,5 +1,5 @@
 <template>
-  <h2 :class="['text-4xl', 'text-blue-900', 'tracking-widest', 'font-bold']">
+  <h2 class="text-4xl text-blue-900 tracking-widest font-bold">
     {{ uiTextStore.json['name'] }}
   </h2>
   

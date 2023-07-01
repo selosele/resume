@@ -1,5 +1,5 @@
 <template>
-  <div class="float-left w-[calc(100%-16rem)]">
+  <div class="float-left w-[calc(100%-17rem)]">
     <slot />
   </div>
 </template>
