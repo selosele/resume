@@ -1,10 +1,10 @@
 <template>
-  <nav :class="['flex', 'items-center', 'w-full', 'h-10',
-                'sticky', 'top-0', 'transition',
+  <nav :class="['flex items-center w-full h-10',
+                'sticky top-0 transition',
                 { 'shadow-lg': 'down' === layoutStore.windowScrollDir },
-                { 'bg-gray-100': 'default' === uiTextStore.json['theme'] },
-                { 'bg-gradient-to-r from-cyan-500 to-blue-500': 'blue' === uiTextStore.json['theme'] },
-                { 'text-slate-50': 'blue' === uiTextStore.json['theme'] }]"
+                { 'bg-gray-100': uiTextStore.isDefaultTheme },
+                { 'bg-gradient-to-r from-cyan-500 to-blue-500': uiTextStore.isBlueTheme },
+                { 'text-slate-50': uiTextStore.isBlueTheme }]"
   >
     <ui-container class="flex justify-between">
       <div class="flex items-center">
@@ -18,16 +18,7 @@
         </div>
       </div>
 
-      <ui-icon-button
-        :icon="'xi-download'"
-        :rounded="true"
-        :title="uiTextStore.json['downloadButtonName']"
-        :class="['w-7', 'h-7',
-                 'hover:border-slate-700', 'focus:border-slate-700',
-                 'bg-slate-700', 'hover:bg-slate-50', 'focus:bg-slate-50',
-                 'hover:text-slate-900', 'focus:text-slate-900']"
-        @click="onPrint"
-      />
+      <ui-dropdown :text="'더보기'" :list="dropdownList" />
     </ui-container>
   </nav>
 </template>
@@ -40,12 +31,18 @@ const uiTextStore = useUiTextStore();
 const layoutStore = useLayoutStore();
 
 /** 이력서 JPG 다운로드 */
-const onPrint = (): void => {
+const onPrintResume = (): void => {
   window.scrollTo(0, 0);
 
   // TO-DO: 화면 캡쳐 로직
-  
+  //location.href = '/documents/이력서_오세현.png';
 };
+
+/** 이력서 다운로드 드롭다운 메뉴 목록 */
+const dropdownList = [
+  { text: '이력서 내려받기', href: '/documents/이력서_오세현.png', event: onPrintResume, download: true, },
+  { text: '경력기술서 내려받기', href: '#', event: null, download: false, },
+];
 </script>
 
 <style lang="scss" scoped>
