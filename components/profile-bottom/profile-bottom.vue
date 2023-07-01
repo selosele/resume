@@ -9,6 +9,9 @@
 
     <!-- 프로젝트 -->
     <profile-project />
+
+    <!-- 경력 -->
+    <profile-career />
     
   </div>
 </template>
