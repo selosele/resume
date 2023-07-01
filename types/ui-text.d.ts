@@ -4,9 +4,6 @@ export interface UiText {
   /** 테마 색상 */
   theme?: string; // default, blue
 
-  /** 이력서 JPG 다운로드 버튼명 */
-  downloadButtonName?: string;
-
   /** 타이틀 */
   title?: string;
 
@@ -45,6 +42,9 @@ export interface UiText {
 
   /** 보유 기술 */
   skil?: UiTextGroup;
+
+  /** 경력 */
+  career?: UiTextGroup[];
 
   /** 프로젝트 */
   project?: UiTextGroup[];
