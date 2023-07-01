@@ -3,5 +3,6 @@
 body {
   @apply bg-stone-50;
   @apply text-lg;
+  @apply break-keep;
   font-family: theme('fontFamily.sans');
 }
