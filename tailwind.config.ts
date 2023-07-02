@@ -12,7 +12,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        'xs': '380px'
+        'xs': '480px'
       },
       fontFamily: {
         sans: ['Noto Sans KR', 'sans-serif'],
