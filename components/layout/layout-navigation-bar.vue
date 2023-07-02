@@ -17,8 +17,6 @@
           <p>{{ uiTextStore.json['enJob'] }}</p>
         </div>
       </div>
-
-      <ui-dropdown :text="'더보기'" :list="dropdownList" />
     </ui-container>
   </nav>
 </template>
@@ -29,20 +27,6 @@ import { useLayoutStore } from '@/store/layout';
 
 const uiTextStore = useUiTextStore();
 const layoutStore = useLayoutStore();
-
-/** 이력서 JPG 다운로드 */
-const onPrintResume = (): void => {
-  window.scrollTo(0, 0);
-
-  // TO-DO: 화면 캡쳐 로직
-  //location.href = '/documents/이력서_오세현.png';
-};
-
-/** 이력서 다운로드 드롭다운 메뉴 목록 */
-const dropdownList = [
-  { text: '이력서 내려받기', href: '/documents/이력서_오세현.png', event: onPrintResume, download: true, },
-  { text: '경력기술서 내려받기', href: '#', event: null, download: false, },
-];
 </script>
 
 <style lang="scss" scoped>
