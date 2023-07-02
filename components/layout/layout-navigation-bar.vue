@@ -6,7 +6,7 @@
                 { 'bg-gradient-to-r from-cyan-500 to-blue-500': uiTextStore.isBlueTheme },
                 { 'text-slate-50': uiTextStore.isBlueTheme }]"
   >
-    <ui-container class="h-full flex justify-between">
+    <ui-container class="h-full flex lg:justify-start justify-center">
       <div class="lg:w-auto w-full flex justify-center items-center">
         <layout-site-title
           :name="uiTextStore.json['enName'].toUpperCase()"
