@@ -7,12 +7,12 @@
                 { 'text-slate-50': uiTextStore.isBlueTheme }]"
   >
     <ui-container class="h-full flex lg:justify-start justify-center">
-      <div class="lg:w-auto w-full flex justify-center items-center">
+      <div class="lg:w-auto w-full flex justify-center items-center gap-8">
         <layout-site-title
           :name="uiTextStore.json['enName'].toUpperCase()"
         />
   
-        <div class="hidden xs:flex flex-wrap items-center gap-2 pl-8 text-sm break-all">
+        <div class="hidden xs:flex flex-wrap items-center gap-2 text-sm break-all">
           <ui-icon :name="'xi-devices'" />
           <p>{{ uiTextStore.json['enJob'] }}</p>
         </div>
