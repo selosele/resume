@@ -2,12 +2,7 @@
 export default defineNuxtConfig({
   devtools: {
     enabled: true,
-    target: 'static',
-    render: {
-      static: {
-        maxAge: 0
-      }
-    },
+    target: 'static'
   },
   modules: [
     '@pinia/nuxt',
