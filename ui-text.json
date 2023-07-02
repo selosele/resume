@@ -2,7 +2,7 @@
   "theme": "default",
   "title": "오세현의 이력서",
   "description": "2년차 웹 개발자 오세현의 이력서입니다.",
-  "profileImage": "assets/images/profile1.jpg",
+  "profileImage": "/images/profile1.jpg",
   "name": "오세현",
   "enName": "Sehyun Oh",
   "phone": "010-5594-3384",
