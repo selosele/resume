@@ -11,6 +11,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '380px'
+      },
       fontFamily: {
         sans: ['Noto Sans KR', 'sans-serif'],
       },
