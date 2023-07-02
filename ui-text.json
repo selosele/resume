@@ -43,7 +43,7 @@
         {
           "label": "국가과학기술지식정보서비스(NTIS) 홈페이지 기능 개발",
           "text": [
-            "Spring, JSP, jQuery, Oracle"
+            "Spring, Java, JSP, jQuery, Oracle"
           ]
         }
       ]
@@ -54,7 +54,9 @@
         {
           "label": "한국항공우주연구원 차세대 행정정보시스템 개발",
           "text": [
-            "Spring Boot, Angular, TypeScript, MSSQL"
+            "Spring Boot, Java, Angular, TypeScript, MSSQL",
+            "Spring Boot 기반의 Java REST API 개발",
+            "Angular를 활용한 SPA 개발"
           ]
         }
       ]
@@ -79,7 +81,7 @@
         {
           "label": "(주)아이비데이타",
           "text": [
-            "Spring Boot, Angular 등을 활용한 웹 개발"
+            "Spring Boot, Java, Angular 등을 활용한 백엔드·프론트엔드 개발"
           ]
         }
       ]
@@ -92,7 +94,7 @@
           "text": [
             "HTML, CSS, JS를 활용한 반응형 웹 퍼블리싱",
             "웹 접근성 개선",
-            "다수의 공공기관, 정부부처, 대학, 초·중·고 학교 홈페이지 사업 참여"
+            "다수의 공공기관, 대학, 초·중·고 학교 홈페이지 사업 참여"
           ]
         }
       ]
