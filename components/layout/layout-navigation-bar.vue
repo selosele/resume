@@ -1,12 +1,12 @@
 <template>
-  <nav :class="['flex items-center w-full h-10',
+  <nav :class="['w-full h-10',
                 'sticky top-0 transition',
                 { 'shadow-lg': 'down' === layoutStore.windowScrollDir },
                 { 'bg-gray-100': uiTextStore.isDefaultTheme },
                 { 'bg-gradient-to-r from-cyan-500 to-blue-500': uiTextStore.isBlueTheme },
                 { 'text-slate-50': uiTextStore.isBlueTheme }]"
   >
-    <ui-container class="flex justify-between">
+    <ui-container class="h-full flex justify-between">
       <div class="lg:w-auto w-full flex justify-center items-center">
         <layout-site-title
           :name="uiTextStore.json['enName'].toUpperCase()"
