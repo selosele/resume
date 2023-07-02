@@ -2,14 +2,16 @@
   <li class="flex items-center gap-3 mt-4">
     <ui-icon :name="icon" />
 
-    <NuxtLink
-      :to="isMail ? `mailto:${text}` : text"
-      :target="isLink ? '_blank' : '_self'"
-      :class="{ 'underline': isLink || isMail }"
-      v-if="isLink || isMail">{{ text }}
-    </NuxtLink>
-
-    <template v-else>{{ text }}</template>
+    <span class="text-blue-900 break-all">
+      <NuxtLink
+        :to="isMail ? `mailto:${text}` : text"
+        :target="isLink ? '_blank' : '_self'"
+        :class="{ 'underline': isLink || isMail }"
+        v-if="isLink || isMail">{{ text }}
+      </NuxtLink>
+  
+      <template v-else>{{ text }}</template>
+    </span>
   </li>
 </template>
 

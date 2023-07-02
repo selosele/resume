@@ -1,6 +1,6 @@
 <template>
-  <header class="mb-8 pt-6 pl-3 pr-3 pb-6 text-center">
-    <h1 class="text-3xl font-bold">
+  <header class="my-16 text-center">
+    <h1 class="lg:text-3xl text-2xl font-bold">
       {{ uiTextStore.json['description'] }}
     </h1>
   </header>

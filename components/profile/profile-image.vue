@@ -1,5 +1,5 @@
 <template>
-  <div :class="['w-56 h-56 flex items-center',
+  <div :class="['hidden lg:flex w-56 h-56 items-center',
                 'overflow-hidden border-solid border-4 border-grey-900 rounded-full']"
   >
     <img :src="uiTextStore.json['profileImage']" alt="">

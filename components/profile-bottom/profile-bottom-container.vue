@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:float-left lg:w-[calc(100%-18rem)]">
+  <div class="mt-20 pt-20 border-t-2 border-grey-900">
     <slot />
   </div>
 </template>

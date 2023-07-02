@@ -1,13 +1,13 @@
 <template>
-  <div class="mb-10 pl-10 pr-10">
-    <div class="flex gap-8">
+  <profile-top-container>
+    <div class="flex gap-12">
       <profile-image />
     
       <div class="mt-2">
         <profile-top-list />
       </div>
     </div>
-  </div>
+  </profile-top-container>
 </template>
 
 <script>

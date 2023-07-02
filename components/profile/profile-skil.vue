@@ -1,5 +1,5 @@
 <template>
-  <profile-bottom-group>
+  <profile-bottom-box>
     <profile-bottom-label-level-1>
       {{ uiTextStore.json['skil'].label }}
     </profile-bottom-label-level-1>
@@ -11,7 +11,7 @@
         :text="item.text"
       />
     </profile-bottom-text>
-  </profile-bottom-group>
+  </profile-bottom-box>
 </template>
 
 <script setup lang="ts">

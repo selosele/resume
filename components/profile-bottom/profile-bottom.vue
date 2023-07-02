@@ -1,7 +1,7 @@
 <template>
-  <div class="pl-10 pr-10">
+  <div class="lg:px-10">
 
-    <!-- 간략한 소개 -->
+    <!-- 내 소개 -->
     <profile-introduction />
 
     <!-- 보유 기술 -->
