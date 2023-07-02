@@ -7,7 +7,7 @@
                 { 'text-slate-50': uiTextStore.isBlueTheme }]"
   >
     <ui-container class="flex justify-between">
-      <div class="flex items-center">
+      <div class="lg:w-auto w-full flex justify-center items-center">
         <layout-site-title
           :name="uiTextStore.json['enName'].toUpperCase()"
         />
