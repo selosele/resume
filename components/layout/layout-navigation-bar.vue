@@ -12,7 +12,7 @@
           :name="uiTextStore.json['enName'].toUpperCase()"
         />
   
-        <div class="hidden xs:flex flex-wrap items-center gap-2 ml-8 text-sm">
+        <div class="hidden xs:flex flex-wrap items-center gap-2 ml-8 text-sm break-all">
           <ui-icon :name="'xi-devices'" />
           <p>{{ uiTextStore.json['enJob'] }}</p>
         </div>
