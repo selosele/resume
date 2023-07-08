@@ -2,18 +2,16 @@
   "theme": "default",
   "title": "오세현의 이력서",
   "description": "2년차 웹 개발자 오세현의 이력서입니다.",
-  "profileImage": "/images/profile1.jpg",
-  "name": "오세현",
-  "enName": "Sehyun Oh",
+  "profileImage": "/images/profile3.jpg",
+  "name": ["오세현", "Sehyun Oh"],
   "phone": "010-5594-3384",
   "mail": "gwiazda762@gmail.com",
   "github": "https://github.com/selosele",
   "area": "대전광역시",
-  "job": "웹 개발자",
-  "enJob": "Web Programmer",
+  "job": ["웹 개발자", "Web Programmer"],
   "introduction": {
     "label": "About me",
-    "text": "\"클라이언트의 니즈를 사전에 파악하고 1을 요구하면 5까지 만들어주는, 최고의 서비스를 제공한다\"는 마인드를 갖추고 프로그래밍합니다. 새로운 기술에 거부감을 갖지 않고 공부하는 스타일로서, 모르는 기술스택을 마주했을 때 막힘없이 소화하고 높은 수준의 결과를 내어 인정받았습니다."
+    "text": "언제나 사용자의 입장에서 생각하면서 프로그래밍합니다. 새로운 기술에 거부감을 갖지 않고 공부하는 스타일로서, 모르는 기술스택을 마주했을 때 막힘없이 소화하고 높은 수준의 결과를 내어 인정받았습니다."
   },
   "skil": {
     "label": "보유 기술",
@@ -92,7 +90,7 @@
         {
           "label": "케이엘정보통신(주)",
           "text": [
-            "HTML, CSS, JS를 활용한 반응형 웹 퍼블리싱",
+            "HTML, CSS, JavaScript, jQuery를 활용한 반응형 웹 퍼블리싱",
             "웹 접근성 개선",
             "다수의 공공기관, 대학, 초·중·고 학교 홈페이지 사업 참여"
           ]

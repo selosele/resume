@@ -14,10 +14,7 @@ export interface UiText {
   profileImage?: string;
 
   /** 이름 */
-  name?: string;
-
-  /** 영문 이름 */
-  enName?: string;
+  name?: string[]; // [한글이름, 영문이름]
 
   /** 연락처 */
   phone?: string;
@@ -32,10 +29,7 @@ export interface UiText {
   area?: string;
 
   /** 직업 */
-  job?: string;
-
-  /** 직업 영문명 */
-  enJob?: string;
+  job?: string[]; // [한글직업명, 영문직업명]
 
   /** 소개 */
   introduction?: UiTextGroup;
