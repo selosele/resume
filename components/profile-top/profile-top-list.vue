@@ -1,6 +1,6 @@
 <template>
   <h2 class="lg:text-4xl text-3xl text-blue-900 tracking-widest font-bold">
-    {{ uiTextStore.json['name'] }}
+    {{ uiTextStore.json['name'][0] }}
   </h2>
   
   <ul class="mt-5 lg:text-xl text-lg">

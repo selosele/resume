@@ -17,9 +17,6 @@ html {
 }
 
 body {
-  @apply bg-stone-50;
-  @apply text-lg;
-  @apply leading-8;
-  @apply break-keep;
+  @apply bg-stone-50 text-lg leading-8 break-keep;
   font-family: theme('fontFamily.sans');
 }
