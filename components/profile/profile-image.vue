@@ -1,6 +1,6 @@
 <template>
-  <div :class="['hidden lg:flex w-56 h-56 items-center',
-                'overflow-hidden border-solid border-4 border-grey-900 rounded-full']"
+  <div :class="['flex w-16 h-16 items-center',
+                'overflow-hidden border-grey-900 rounded-full']"
   >
     <img :src="uiTextStore.json['profileImage']" alt="">
   </div>

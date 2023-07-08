@@ -1,5 +1,4 @@
 {
-  "theme": "default",
   "title": "오세현의 이력서",
   "description": "2년차 웹 개발자 오세현의 이력서입니다.",
   "profileImage": "/images/profile3.jpg",
@@ -11,91 +10,72 @@
   "job": ["웹 개발자", "Web Programmer"],
   "introduction": {
     "label": "About me",
-    "text": "언제나 사용자의 입장에서 생각하면서 프로그래밍합니다. 새로운 기술에 거부감을 갖지 않고 공부하는 스타일로서, 모르는 기술스택을 마주했을 때 막힘없이 소화하고 높은 수준의 결과를 내어 인정받았습니다."
+    "text": "언제나 사용자의 입장에서 생각하며 프로그래밍합니다. 새로운 기술에 거부감을 갖지 않고 공부하는 스타일로서, 모르는 기술스택을 마주했을 때 막힘없이 소화하고 높은 수준의 결과를 내어 인정받았습니다."
   },
   "skil": {
     "label": "보유 기술",
     "text": [
       {
         "label": "back-end",
-        "text": ["Java", "Spring Boot", "Express.js", "NestJS"]
+        "text": "Java, Spring Boot, Express.js, NestJS"
       },
       {
         "label": "front-end",
-        "text": ["Angular", "Vue.js", "TypeScript", "JavaScript(ES6)", "jQuery", "JSP"]
+        "text": "Angular, Vue.js, TypeScript, JavaScript(ES6), jQuery"
       },
       {
         "label": "DBMS",
-        "text": ["MySQL", "MariaDB", "MSSQL", "Oracle"]
+        "text": "MySQL, MariaDB, MSSQL, Oracle"
       },
       {
         "label": "형상관리",
-        "text": ["Git", "SVN"]
+        "text": "Git, SVN"
       }
     ]
   },
-  "project": [
-    {
-      "label": "프로젝트<br>23.06 ~ 24.01<br>(주)아이비데이타<br>SI사업부 대리",
-      "text": [
-        {
-          "label": "국가과학기술지식정보서비스(NTIS) 홈페이지 기능 개발",
-          "text": [
-            "Spring, Java, JSP, jQuery, Oracle"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "프로젝트<br>22.08 ~ 23.06<br>(주)아이비데이타<br>SI사업부 사원",
-      "text": [
-        {
-          "label": "한국항공우주연구원 차세대 행정정보시스템 개발",
-          "text": [
-            "Spring Boot, Java, Angular, TypeScript, MSSQL",
-            "Spring Boot 기반의 Java REST API 개발",
-            "Angular를 활용한 SPA 개발"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "프로젝트<br>20.05 ~ 21.01<br>케이엘정보통신(주)<br>퍼블리셔팀 사원",
-      "text": [
-        {
-          "label": "국세청 부속기관 홈페이지 반응형 웹 퍼블리싱",
-          "text": [
-            "지방세무서 템플릿, 국세청 영문, 국세청 동영상 TV, 국립조세박물관, 납세자권익24, 국세상담센터 홈페이지",
-            "웹 접근성 개선"
-          ]
-        }
-      ]
-    }
-  ],
-  "career": [
-    {
-      "label": "경력<br>22.08 ~<br>웹 개발자",
-      "text": [
-        {
-          "label": "(주)아이비데이타",
-          "text": [
-            "Spring Boot, Java, Angular 등을 활용한 백엔드·프론트엔드 개발"
-          ]
-        }
-      ]
-    },
-    {
-      "label": "경력<br>19.10 ~ 21.08<br>웹 퍼블리셔",
-      "text": [
-        {
-          "label": "케이엘정보통신(주)",
-          "text": [
-            "HTML, CSS, JavaScript, jQuery를 활용한 반응형 웹 퍼블리싱",
-            "웹 접근성 개선",
-            "다수의 공공기관, 대학, 초·중·고 학교 홈페이지 사업 참여"
-          ]
-        }
-      ]
-    }
-  ]
+  "project": {
+    "label": "프로젝트",
+    "text": [
+      {
+        "label": ["국가과학기술지식정보서비스(NTIS) 홈페이지 기능 개발", "(주)아이비데이타", "23.06 ~ 24.01"],
+        "text": [
+          "Spring, Java, JSP, jQuery, Oracle"
+        ]
+      },
+      {
+        "label": ["한국항공우주연구원 차세대 행정정보시스템 개발", "(주)아이비데이타", "22.08 ~ 23.06"],
+        "text": [
+          "Spring Boot, Java, Angular, TypeScript, MSSQL",
+          "Spring Boot 기반의 Java REST API 개발",
+          "Angular를 활용한 SPA 개발"
+        ]
+      },
+      {
+        "label": ["국세청 부속기관 홈페이지 반응형 웹 퍼블리싱", "케이엘정보통신(주)", "20.05 ~ 21.01"],
+        "text": [
+          "지방세무서 템플릿, 국세청 영문, 국세청 동영상 TV, 국립조세박물관, 납세자권익24, 국세상담센터 홈페이지",
+          "웹 접근성 개선"
+        ]
+      }
+    ]
+  },
+  "career": {
+    "label": "경력",
+    "text": [
+      {
+        "label": ["(주)아이비데이타", "웹 개발자", "22.08 ~"],
+        "text": [
+          "Spring Boot, Java, Angular 등을 활용한 백엔드·프론트엔드 개발"
+        ]
+      },
+      {
+        "label": ["케이엘정보통신(주)", "웹 퍼블리셔", "19.10 ~ 21.08"],
+        "text": [
+          "HTML, CSS, JavaScript, jQuery를 활용한 반응형 웹 퍼블리싱",
+          "웹 접근성 개선",
+          "다수의 공공기관, 대학, 초·중·고 학교 홈페이지 사업 참여"
+        ]
+      }
+    ]
+  }
 }

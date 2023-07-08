@@ -1,7 +1,5 @@
 <template>
   <ui-container>
-    <layout-header />
-
     <slot />
 
     <layout-footer />

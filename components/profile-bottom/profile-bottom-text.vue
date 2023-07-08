@@ -1,7 +1,5 @@
 <template>
-  <div class="lg:float-left lg:w-[calc(100%-18rem)]">
-    <slot />
-  </div>
+  <slot />
 </template>
 
 <script>

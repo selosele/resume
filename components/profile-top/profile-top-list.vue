@@ -1,9 +1,5 @@
 <template>
-  <h2 class="lg:text-4xl text-3xl text-blue-900 tracking-widest font-bold">
-    {{ uiTextStore.json['name'][0] }}
-  </h2>
-  
-  <ul class="mt-5 lg:text-xl text-lg">
+  <ul class="flex flex-wrap gap-4">
     <profile-top-list-item
       v-for="(item,i) in list" :key="i"
       :icon="item.icon"

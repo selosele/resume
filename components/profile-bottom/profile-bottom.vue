@@ -1,11 +1,19 @@
 <template>
-  <div class="lg:px-10">
+  <div>
 
-    <!-- 내 소개 -->
-    <profile-introduction />
+    <div class="flex flex-wrap lg:gap-8">
 
-    <!-- 보유 기술 -->
-    <profile-skil />
+      <!-- 내 소개 -->
+      <profile-introduction
+        class="lg:w-[calc(50%-2rem)]"
+      />
+
+      <!-- 보유 기술 -->
+      <profile-skil
+        class="lg:w-[calc(50%-2rem)]"
+      />
+
+    </div>
 
     <!-- 프로젝트 -->
     <profile-project />

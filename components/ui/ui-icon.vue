@@ -1,7 +1,5 @@
 <template>
-  <i :class="name" aria-hidden="true">
-    <slot />
-  </i>
+  <i :class="name" aria-hidden="true"></i>
 </template>
 
 <script>

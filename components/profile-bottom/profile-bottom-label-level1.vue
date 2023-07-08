@@ -1,6 +1,6 @@
 <template>
-  <h3 :class="['lg:w-64 lg:mr-8 lg:mb-0 mb-6 lg:pl-10 lg:float-left leading-9',
-               'text-2xl text-blue-900 font-bold']"
+  <h3 :class="['mb-5 leading-9 text-2xl text-blue-900',
+               'font-bold border-b-2 border-blue-900']"
   >
     <slot />
   </h3>

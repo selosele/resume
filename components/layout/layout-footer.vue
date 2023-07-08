@@ -1,5 +1,5 @@
 <template>
-  <footer :class="['mt-40 pb-6 pt-3 px-3',
+  <footer :class="['mt-24 pb-6 pt-3 px-3',
                    'border-t-4 border-grey-900']"
   >
     <p class="text-base">

@@ -1,19 +1,20 @@
 <template>
-  <profile-bottom-container>
-    <profile-bottom-box v-for="(item,i) in list" :key="i">
-      <profile-bottom-label-level-1>
-        <span v-html="item.label" />
-      </profile-bottom-label-level-1>
-  
-      <profile-bottom-text>
+  <profile-bottom-box>
+    <profile-bottom-label-level-1>
+      {{ uiTextStore.json['career'].label }}
+    </profile-bottom-label-level-1>
+
+    <profile-bottom-text>
+      <ul>
         <profile-career-list-item
-          v-for="(item2,j) in (item.text as UiTextGroup[])" :key="j"
-          :label="item2.label"
-          :text="item2.text"
+          v-for="(item,i) in list" :key="i"
+          :label="item.label"
+          :text="item.text"
+          :class="{ 'mt-7': 0 < i }"
         />
-      </profile-bottom-text>
-    </profile-bottom-box>
-  </profile-bottom-container>
+      </ul>
+    </profile-bottom-text>
+  </profile-bottom-box>
 </template>
 
 <script setup lang="ts">
@@ -22,7 +23,7 @@ import { UiTextGroup } from '@/types/ui-text';
 
 const uiTextStore = useUiTextStore();
 
-const list = uiTextStore.json['career'] as UiTextGroup[];
+const list = uiTextStore.json['career'].text as UiTextGroup[];
 </script>
 
 <style lang="scss" scoped>

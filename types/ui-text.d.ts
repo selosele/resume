@@ -1,9 +1,6 @@
 /** UI Text 인터페이스 */
 export interface UiText {
 
-  /** 테마 색상 */
-  theme?: string; // default, blue
-
   /** 타이틀 */
   title?: string;
 
@@ -38,10 +35,10 @@ export interface UiText {
   skil?: UiTextGroup;
 
   /** 경력 */
-  career?: UiTextGroup[];
+  career?: UiTextGroup;
 
   /** 프로젝트 */
-  project?: UiTextGroup[];
+  project?: UiTextGroup;
 
 }
 
@@ -49,7 +46,7 @@ export interface UiText {
 export interface UiTextGroup {
 
   /** 라벨 */
-  label: string;
+  label: string | string[];
 
   /** 내용 */
   text: string | string[] | UiTextGroup | UiTextGroup[];

@@ -1,12 +1,11 @@
 <template>
-  <li class="flex items-center gap-3 mt-4">
+  <li class="flex items-center gap-3 xs:w-[calc(50%-1rem)] w-full leading-6">
     <ui-icon :name="icon" />
 
-    <span class="text-blue-900 break-all">
+    <span class="break-all">
       <NuxtLink
         :to="isMail ? `mailto:${text}` : text"
         :target="isLink ? '_blank' : '_self'"
-        :class="{ 'underline': isLink || isMail }"
         v-if="isLink || isMail">{{ text }}
       </NuxtLink>
   
