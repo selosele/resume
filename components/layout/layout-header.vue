@@ -1,5 +1,5 @@
 <template>
-  <header class="my-16 text-center">
+  <header class="mt-8 mb-16 pt-8 text-center border-t-4 border-grey-900">
     <h1 class="lg:text-3xl text-2xl font-bold">
       {{ uiTextStore.json['description'] }}
     </h1>

@@ -14,10 +14,4 @@ export const useUiTextStore = defineStore('uiText', {
       this.json = uiTextJson as UiText;
     },
   },
-  getters: {
-    /** default 테마인 경우 */
-    isDefaultTheme: (state) => state.json['theme'] === 'default',
-    /** blue 테마인 경우 */
-    isBlueTheme: (state) => state.json['theme'] === 'blue',
-  },
 });
