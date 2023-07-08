@@ -1,5 +1,7 @@
 <template>
-  <li class="flex items-center gap-3 md:w-[calc(50%-8rem)] sm:w-[calc(50%-4rem)] w-full leading-6">
+  <li :class="['flex items-center gap-3 leading-6',
+               'md:w-[calc(50%-8rem)] sm:w-[calc(50%-4rem)] w-full']"
+  >
     <ui-icon :name="icon" />
 
     <span class="break-all">
