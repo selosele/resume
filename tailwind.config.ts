@@ -15,7 +15,7 @@ const config: Config = {
         'xs': '480px'
       },
       fontFamily: {
-        sans: ['KoPub Dotum', 'sans-serif'],
+        sans: ['Noto Sans KR', 'sans-serif'],
       },
     },
   },

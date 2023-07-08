@@ -6,7 +6,7 @@
   
         <div>
           <h1 class="text-2xl font-bold">
-            {{ uiTextStore.json['name'][0] }}({{ uiTextStore.json['name'][1] }})
+            {{ uiTextStore.json['name'][0] }}
           </h1>
     
           <p>{{ uiTextStore.json['job'][1] }}</p>
