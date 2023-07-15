@@ -14,4 +14,10 @@ export const useUiTextStore = defineStore('uiText', {
       this.json = uiTextJson as UiText;
     },
   },
+  getters: {
+    /** ui-text.json에 key가 존재하는지 확인 */
+    hasProperty: (state) => (key: string): boolean => {
+      return state.json.hasOwnProperty(key);
+    },
+  },
 });

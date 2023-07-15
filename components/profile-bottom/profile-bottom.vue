@@ -6,28 +6,34 @@
       <!-- 내 소개 -->
       <profile-introduction
         class="lg:w-[calc(50%-2rem)]"
+        v-if="uiTextStore.hasProperty('introduction')"
       />
 
       <!-- 보유 기술 -->
       <profile-skil
         class="lg:w-[calc(50%-2rem)]"
+        v-if="uiTextStore.hasProperty('skil')"
       />
 
     </div>
 
     <!-- 프로젝트 -->
-    <profile-project />
+    <profile-project
+      v-if="uiTextStore.hasProperty('project')"
+    />
 
     <!-- 경력 -->
-    <profile-career />
+    <profile-career
+      v-if="uiTextStore.hasProperty('career')"
+    />
     
   </div>
 </template>
 
-<script>
-export default {
-  
-}
+<script setup lang="ts">
+import { useUiTextStore } from "@/store/ui-text";
+
+const uiTextStore = useUiTextStore();
 </script>
 
 <style lang="scss" scoped>
