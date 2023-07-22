@@ -17,11 +17,11 @@
     "text": [
       {
         "label": "back-end",
-        "text": "Java, Spring Boot, NestJS"
+        "text": "Java, Spring Boot"
       },
       {
         "label": "front-end",
-        "text": "Angular, Vue.js, TypeScript, JavaScript(ES6), jQuery"
+        "text": "Angular, TypeScript, JavaScript(ES6), jQuery"
       },
       {
         "label": "DBMS",
