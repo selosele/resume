@@ -28,16 +28,6 @@ useHead({
       href: '/css/plugins/XEIcon/xeicon.min.css'
     },
   ],
-  meta: [
-    // {
-    //   property: 'og:image',
-    //   content: 'none',
-    // },
-    {
-      property: 'kakao:image',
-      content: 'none',
-    },
-  ],
 });
 </script>
 

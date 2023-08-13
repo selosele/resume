@@ -8,7 +8,7 @@ export interface UiText {
   description?: string;
 
   /** 프로필 이미지 경로 */
-  profileImage?: string;
+  profileImage?: string; // '/images/[파일명]'
 
   /** 이름 */
   name?: string[]; // [한글이름, 영문이름]
