@@ -16,7 +16,6 @@ useSeoMeta({
   ogTitle: uiTextStore.json['title'],
   description: uiTextStore.json['description'],
   ogDescription: uiTextStore.json['description'],
-  ogImage: null,
 });
 
 useHead({
@@ -27,6 +26,12 @@ useHead({
     {
       rel: 'stylesheet',
       href: '/css/plugins/XEIcon/xeicon.min.css'
+    },
+  ],
+  meta: [
+    {
+      property: 'kakao:image',
+      content: 'none',
     },
   ],
 });
