@@ -30,6 +30,10 @@ useHead({
   ],
   meta: [
     {
+      property: 'og:image',
+      content: 'none',
+    },
+    {
       property: 'kakao:image',
       content: 'none',
     },
