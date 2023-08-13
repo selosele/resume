@@ -16,6 +16,7 @@ useSeoMeta({
   ogTitle: uiTextStore.json['title'],
   description: uiTextStore.json['description'],
   ogDescription: uiTextStore.json['description'],
+  ogImage: null,
 });
 
 useHead({
