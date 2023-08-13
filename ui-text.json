@@ -1,6 +1,7 @@
 {
   "title": "경력 백엔드 개발자 오세현의 이력서",
   "description": "경력 백엔드 개발자 오세현의 이력서입니다.",
+  "profileImage": "/images/profile.jpg",
   "name": ["오세현", "Sehyun Oh"],
   "phone": "010-5594-3384",
   "mail": "osh10.dev@gmail.com",
