@@ -4,8 +4,13 @@
       {{ label }}
     </profile-bottom-label-level-2>
   
-    <p>
-      {{ text }}
+    <p class="flex flex-wrap gap-1">
+      <span
+        v-for="(item,i) in text" :key="i"
+        class="px-[0.6rem] py-[0.125rem] bg-blue-300 text-base rounded"
+        >
+        {{ item }}
+      </span>
     </p>
   </li>
 </template>
@@ -16,7 +21,7 @@ export default {
     /** 라벨 */
     label: String,
     /** 내용 */
-    text: String,
+    text: Array,
   },
 }
 </script>
