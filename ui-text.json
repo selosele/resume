@@ -10,26 +10,26 @@
   "job": ["백엔드 개발자", "Backend Developer"],
   "introduction": {
     "label": "About me",
-    "text": "1년 동안 백엔드 개발을 해왔고, 언제나 사용자의 입장에서 생각하며 작업합니다. 새로운 기술에 거부감을 갖지 않고 공부하는 스타일로서, 모르는 기술을 마주했을 때 막힘없이 소화하고 높은 수준의 결과를 내어 인정받았습니다."
+    "text": "1년 동안 백엔드 개발을 해왔고, 언제나 사용자의 입장에서 생각하며 작업합니다. 새로운 기술에 거부감을 갖지 않고 학습하는 스타일로서, 모르는 기술을 마주했을 때 막힘없이 소화하고 높은 수준의 결과를 내어 인정받았습니다."
   },
   "skil": {
     "label": "보유 기술",
     "text": [
       {
         "label": "back-end",
-        "text": "Java, Spring Boot"
+        "text": ["Java", "Spring Boot"]
       },
       {
         "label": "front-end",
-        "text": "Angular, TypeScript, JavaScript(ES6), jQuery"
+        "text": ["Angular", "TypeScript", "JavaScript(ES6)", "jQuery"]
       },
       {
         "label": "DBMS",
-        "text": "MySQL, MariaDB, MSSQL, Oracle"
+        "text": ["MySQL", "MariaDB", "MSSQL", "Oracle"]
       },
       {
         "label": "형상관리",
-        "text": "Git, SVN"
+        "text": ["Git", "SVN"]
       }
     ]
   },
