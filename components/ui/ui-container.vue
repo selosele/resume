@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:container mt-8 mx-auto lg:px-7 md:px-6 px-5">
+  <div class="lg:container mx-auto lg:px-7 md:px-6 px-5 py-8 pb-6">
     <slot />
   </div>
 </template>
