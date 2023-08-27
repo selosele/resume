@@ -4,7 +4,7 @@
   "profileImage": "/images/profile.png",
   "name": ["오세현", "Sehyun Oh"],
   "phone": "010-5594-3384",
-  "mail": "osh10.dev@gmail.com",
+  "mail": "selo7742@gmail.com",
   "github": "https://github.com/selosele",
   "area": "대전광역시",
   "job": ["백엔드 개발자", "Backend Developer"],
@@ -46,7 +46,7 @@
       {
         "label": ["한국항공우주연구원 차세대 행정정보시스템 개발", "(주)아이비데이타", "22.08 ~ 23.06"],
         "text": [
-          "통합포털 설문 기능, 회계관리 파트 결의서 기능개발",
+          "통합포털 설문, 회계관리 파트 결의서 개발",
           "Spring Boot 기반의 Java REST API 개발",
           "Angular를 활용한 SPA 개발",
           "Spring Boot, Java, Angular, TypeScript, MSSQL, Git"
