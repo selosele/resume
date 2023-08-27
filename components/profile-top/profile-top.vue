@@ -1,5 +1,5 @@
 <template>
-  <header class="mt-8 xl:mb-16 mb-12">
+  <header class="xl:mb-16 mb-12">
     <div class="flex xl:flex-nowrap flex-wrap xl:gap-12 gap-6">
       <div class="flex items-center gap-4">
         <profile-image v-if="uiTextStore.hasProperty('profileImage')" />
