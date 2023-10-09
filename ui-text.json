@@ -21,11 +21,11 @@
       },
       {
         "label": "front-end",
-        "text": ["Angular", "TypeScript", "JavaScript(ES6)"]
+        "text": ["Angular", "JavaScript(ES6)"]
       },
       {
         "label": "DBMS",
-        "text": ["MySQL", "MariaDB", "MSSQL", "Oracle"]
+        "text": ["MySQL", "MSSQL", "Oracle", "Redis"]
       },
       {
         "label": "형상관리",
