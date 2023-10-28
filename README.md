@@ -10,3 +10,6 @@
 - `Tailwind CSS` - 3.3.2
 - `WSL2` - Ubuntu 22.04 LTS
 
+## etc.
+
+- 구동 명령: `npm run dev`
