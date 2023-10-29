@@ -12,4 +12,4 @@
 
 ## etc.
 
-- 구동 명령: `npm run dev`
+- 애플리케이션 구동 명령: `npm run dev`
