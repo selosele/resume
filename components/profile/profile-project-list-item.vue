@@ -4,7 +4,7 @@
       {{ label[0] }}
 
       <profile-bottom-label-level-2-sub
-        :text="[label[1], label[2]]"
+        :text="[label[1], label[2], label[3]]"
       />
     </profile-bottom-label-level-2>
   

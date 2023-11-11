@@ -2,6 +2,10 @@
   <profile-bottom-box>
     <profile-bottom-label-level-1>
       {{ uiTextStore.json['project'].label }}
+
+      <ui-help>
+        프로젝트명 - 재직기업 | 발주처 | 프로젝트 기간
+      </ui-help>
     </profile-bottom-label-level-1>
 
     <profile-bottom-text>
