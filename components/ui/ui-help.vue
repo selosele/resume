@@ -1,6 +1,7 @@
 <template>
   <button
     type="button"
+    title="도움말"
     class="inline-flex justify-center items-center w-7 h-7 text-gray-900"
     @click="toggle"
   >
