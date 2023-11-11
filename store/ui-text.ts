@@ -10,7 +10,7 @@ export const useUiTextStore = defineStore('uiText', {
   }),
   actions: {
     /** ui-text.json 파일 로드 */
-    loadUiText(): void {
+    load(): void {
       this.json = uiTextJson as UiText;
     },
   },

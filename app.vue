@@ -9,7 +9,7 @@ import { useUiTextStore } from '@/store/ui-text';
 
 const uiTextStore = useUiTextStore();
 
-uiTextStore.loadUiText();
+uiTextStore.load();
 
 useSeoMeta({
   title: uiTextStore.json['title'],

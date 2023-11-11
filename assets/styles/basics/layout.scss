@@ -18,3 +18,9 @@ body {
   @apply bg-stone-50 text-lg leading-8 break-keep;
   font-family: theme('fontFamily.sans');
 }
+
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
