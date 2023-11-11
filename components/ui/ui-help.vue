@@ -8,9 +8,9 @@
     <ui-icon :name="isShow ? 'xi-help' : 'xi-help-o'" />
   </button>
 
-  <div v-show="isShow" class="py-1 px-2 text-base font-normal bg-yellow-50">
+  <span v-show="isShow" class="block py-1 px-2 text-base text-gray-950 font-normal bg-yellow-50">
     <slot />
-  </div>
+  </span>
 </template>
 
 <script>
