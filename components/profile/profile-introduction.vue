@@ -5,9 +5,7 @@
     </profile-bottom-label-level-1>
 
     <profile-bottom-text>
-      <p>
-        {{ uiTextStore.json['introduction'].text }}
-      </p>
+      <p v-html="uiTextStore.json['introduction'].text"></p>
     </profile-bottom-text>
   </profile-bottom-box>
 </template>
