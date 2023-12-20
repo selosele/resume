@@ -1,7 +1,7 @@
 {
   "title": "경력 백엔드 개발자 오세현의 이력서",
   "description": "경력 백엔드 개발자 오세현의 이력서입니다.",
-  "profileImage": "/images/profile2.jpg",
+  "profileImage": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1703064077/%EC%A6%9D%EB%AA%85%EC%82%AC%EC%A7%84_%EC%B5%9C%EC%8B%A0_kd1qsj.jpg",
   "name": ["오세현", "Sehyun Oh"],
   "phone": "010-5594-3384",
   "mail": "selo7742@gmail.com",
@@ -10,7 +10,7 @@
   "job": ["백엔드 개발자", "Backend Developer"],
   "introduction": {
     "label": "About me",
-    "text": "웹 기술자로의 경력은 3년 4개월로, 웹 퍼블리셔(1년 10개월)로 시작하여 백엔드 개발자(1년 4개월)로 성장하였습니다.<br><br>어떤 기술이라도 빠르게 소화하고 효과적인 결과물을 내어 인정받았습니다. 회사에서 필요한 기술 뿐만 아니라 개인적으로도 꾸준한 자기계발을 추구하고 있습니다. 이 웹 페이지는 Nuxt.js로 개발되었습니다."
+    "text": "웹 기술자로의 경력은 3년 2개월로, 웹 퍼블리셔(1년 10개월)로 시작하여 백엔드 개발자(1년 4개월)로 성장하였습니다.<br><br>어떤 기술이라도 빠르게 소화하고 효과적인 결과물을 내어 인정받았습니다. 회사에서 필요한 기술 뿐만 아니라 개인적으로도 꾸준한 자기계발을 추구하고 있습니다. 이 웹 사이트는 Nuxt.js로 개발되었습니다."
   },
   "skil": {
     "label": "보유 기술",
@@ -50,6 +50,13 @@
           "Spring Boot 기반의 Java REST API 개발",
           "Angular를 활용한 SPA 개발",
           "Spring Boot, Java, Angular, TypeScript, MSSQL, Git"
+        ]
+      },
+      {
+        "label": ["국세청 부속기관 홈페이지 반응형 웹 퍼블리싱", "케이엘정보통신(주)", "국세청", "20.05 ~ 21.01"],
+        "text": [
+          "다수의 부속기관 홈페이지 메인 퍼블리싱",
+          "국세상담센터, 국세청 영문, 국세청 동영상 TV, 국립조세박물관, 납세자권익24, 지방청/세무서 메인 홈페이지 퍼블리싱"
         ]
       }
     ]
