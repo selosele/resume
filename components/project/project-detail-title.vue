@@ -2,11 +2,11 @@
   <h2 class="relative mb-8 pt-8 pb-8 border-t border-b border-solid font-bold text-4xl text-center break-all">
     <NuxtLink
       to="/"
-      title="홈으로 가기"
       :class="['flex justify-center items-center absolute xl:bottom-[1.764705rem] xl:top-auto top-[-18px] left-0',
                'w-10 h-10 rounded-full bg-gray-800 text-slate-50 text-3xl hover:no-underline']"
     >
       <ui-icon :name="'xi-long-arrow-left'" />
+      <span class="sr-only">홈으로 가기</span>
     </NuxtLink>
 
     {{ text[0] }}
