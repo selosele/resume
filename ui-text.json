@@ -10,7 +10,7 @@
   "job": ["백엔드 개발자", "Backend Developer"],
   "introduction": {
     "label": "About me",
-    "text": "웹 기술자로의 경력은 3년 2개월로, 웹 퍼블리셔(1년 10개월)로 시작하여 백엔드 개발자(1년 4개월)로 성장하였습니다.<br><br>어떤 기술이라도 빠르게 소화하고 효과적인 결과물을 내어 인정받았습니다. 회사에서 필요한 기술 뿐만 아니라 개인적으로도 꾸준한 자기계발을 추구하고 있습니다. 이 웹 사이트는 Nuxt.js로 개발되었습니다."
+    "text": "웹 기술자로의 경력은 3년 2개월로, 웹 퍼블리셔(1년 10개월)로 시작하여 백엔드 개발자(1년 4개월)로 성장하였습니다.<br><br>어떤 기술이라도 빠르게 소화하고 효과적인 결과물을 내어 인정받았습니다. 회사에서 필요한 기술 뿐만 아니라 개인적으로도 꾸준한 자기계발을 추구하고 있습니다. 이 웹 사이트는 Nuxt.js로 개발하였습니다."
   },
   "skil": {
     "label": "보유 기술",
@@ -37,26 +37,40 @@
     "label": "프로젝트",
     "text": [
       {
-        "label": ["국가과학기술지식정보서비스 홈페이지 기능개발 및 유지보수", "(주)아이비데이타", "KISTI", "23.06 ~ 23.12"],
+        "id": "3",
+        "url": "https://www.ntis.go.kr/outcomes/popup/srchRstList.do",
+        "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1703065071/project_3-min_y8rbwb.png",
+        "label": ["NTIS 홈페이지 기능개발 및 유지보수", "(주)아이비데이타", "KISTI", "2023.06 ~ 2023.12"],
         "text": [
-          "연구개발성과 파트 기능개발 및 유지보수",
-          "Spring, Java, JSP, jQuery, Oracle, SVN"
+          "Spring, Java, JSP, jQuery, Oracle, SVN",
+          "연구개발성과 파트 기능 개발 및 유지보수",
+          "특허검증 기능 SOAP → REST API 변경 개발",
+          "검색 기능 개선: 결과 내 재검색 기능 개발",
+          "모바일 친화형 UI/UX 전환으로 인한 화면 개발"
         ]
       },
       {
-        "label": ["한국항공우주연구원 차세대 행정정보시스템 개발", "(주)아이비데이타", "한국항공우주연구원", "22.08 ~ 23.06"],
+        "id": "2",
+        "url": "",
+        "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1703065070/project_2-min_kvxb5d.jpg",
+        "label": ["한국항공우주연구원 차세대 행정정보시스템 개발", "(주)아이비데이타", "한국항공우주연구원", "2022.08 ~ 2023.06"],
         "text": [
-          "통합포털 설문, 회계관리 파트 결의서 기능개발",
+          "Spring Boot, Java, Angular, TypeScript, MSSQL, Git",
+          "통합포탈 설문 기능 개발",
+          "회계관리 파트 결의서 기능 및 화면 개발",
           "Spring Boot 기반의 Java REST API 개발",
-          "Angular를 활용한 SPA 개발",
-          "Spring Boot, Java, Angular, TypeScript, MSSQL, Git"
+          "Angular를 활용한 SPA 개발"
         ]
       },
       {
-        "label": ["국세청 부속기관 홈페이지 반응형 웹 퍼블리싱", "케이엘정보통신(주)", "국세청", "20.05 ~ 21.01"],
+        "id": "1",
+        "url": "https://d.nts.go.kr/daejeonnts/main.do",
+        "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1703133352/project_1-min_etxptn.png",
+        "label": ["국세청 부속기관 홈페이지 반응형 웹 퍼블리싱", "케이엘정보통신(주)", "국세청", "2020.08 ~ 2021.01"],
         "text": [
-          "다수의 부속기관 홈페이지 메인 퍼블리싱",
-          "국세상담센터, 국세청 영문, 국세청 동영상 TV, 국립조세박물관, 납세자권익24, 지방청/세무서 메인 홈페이지 퍼블리싱"
+          "HTML, CSS, JavaScript, jQuery",
+          "다수의 부속기관 홈페이지 메인 퍼블리싱 및 웹 접근성 개선",
+          "지방청/세무서, 국세상담센터, 국세청 영문, 국세청 동영상 TV, 국립조세박물관, 납세자권익24 메인 홈페이지 퍼블리싱"
         ]
       }
     ]

@@ -14,21 +14,16 @@
   </span>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      /** 레이어 표시 여부 */
-      isShow: false,
-    }
-  },
-  methods: {
-    /** 레이어 토글 */
-    toggle() {
-      this.isShow = !this.isShow;
-    }
-  },
-}
+<script setup lang="ts">
+import { ref } from 'vue';
+
+/** 레이어 표시 여부 */
+let isShow = ref(false);
+
+/** 레이어 토글 */
+const toggle = () => {
+  isShow.value = !isShow.value;
+};
 </script>
 
 <style lang="scss" scoped>

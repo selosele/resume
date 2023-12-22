@@ -10,8 +10,7 @@
       >
         <profile-skil-list-item
           v-for="(item,i) in list" :key="i"
-          :label="item.label"
-          :text="item.text"
+          :item="item"
         />
       </ul>
     </profile-bottom-text>

@@ -1,5 +1,5 @@
 <template>
-  <slot />
+  <profile-top />
 </template>
 
 <script setup lang="ts">

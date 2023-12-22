@@ -8,8 +8,7 @@
       <ul>
         <profile-career-list-item
           v-for="(item,i) in list" :key="i"
-          :label="item.label"
-          :text="item.text"
+          :item="item"
           :class="{ 'mt-7': 0 < i }"
         />
       </ul>

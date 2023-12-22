@@ -2,7 +2,9 @@
   <header class="xl:mb-16 mb-12">
     <div class="flex xl:flex-nowrap flex-wrap xl:gap-12 gap-6">
       <div class="flex items-center gap-4">
-        <profile-image v-if="uiTextStore.hasProperty('profileImage')" />
+        <profile-image
+          v-if="uiTextStore.hasProperty('profileImage')"
+        />
   
         <div>
           <h1 class="text-2xl font-bold">

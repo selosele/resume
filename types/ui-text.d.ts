@@ -45,10 +45,25 @@ export interface UiText {
 /** UI Text Group 인터페이스 */
 export interface UiTextGroup {
 
+  /** key */
+  keyProp?: string;
+
+  /** 아이디 */
+  id?: string;
+
+  /** URL */
+  url?: string;
+
+  /** 이미지 */
+  image?: string;
+
+  /** 아이콘 */
+  icon?: string;
+
   /** 라벨 */
-  label: string | string[];
+  label?: string | string[];
 
   /** 내용 */
-  text: string | string[] | UiTextGroup | UiTextGroup[];
+  text?: string | string[] | UiTextGroup | UiTextGroup[];
 
 }

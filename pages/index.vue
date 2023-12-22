@@ -1,13 +1,9 @@
 <template>
-  <profile-top />
-
   <profile-bottom />
 </template>
 
-<script>
-export default {
+<script setup lang="ts">
 
-}
 </script>
 
 <style lang="scss" scoped>

@@ -1,13 +1,11 @@
 <template>
-  <h4 class="mb-1 text-xl font-bold">
+  <h3 class="text-xl font-bold">
     <slot />
-  </h4>
+  </h3>
 </template>
 
-<script>
-export default {
-  
-}
+<script setup lang="ts">
+
 </script>
 
 <style lang="scss" scoped>

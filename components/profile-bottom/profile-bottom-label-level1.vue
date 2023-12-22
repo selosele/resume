@@ -1,15 +1,13 @@
 <template>
-  <h3 :class="['mb-5 leading-9 text-2xl text-blue-900',
+  <h2 :class="['mb-5 leading-9 text-2xl text-blue-900',
                'font-bold border-b-2 border-blue-900']"
   >
     <slot />
-  </h3>
+  </h2>
 </template>
 
-<script>
-export default {
-  
-}
+<script setup lang="ts">
+
 </script>
 
 <style lang="scss" scoped>
