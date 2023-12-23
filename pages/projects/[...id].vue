@@ -13,27 +13,10 @@
 
     <ContentRenderer :value="project" />
 
-    <div class="flex justify-between mt-14">
-      <div>
-        <NuxtLink
-          v-if="prev"
-          :to="`/projects/${prev.id}`"
-          class="block bg-slate-200 px-4 py-1"
-        >
-        이전
-        </NuxtLink>
-      </div>
-
-      <div>
-        <NuxtLink
-          v-if="next"
-          :to="`/projects/${next.id}`"
-          class="block bg-slate-200 px-4 py-1"
-        >
-        다음
-        </NuxtLink>
-      </div>
-    </div>
+    <project-detail-footer
+      :prevId="prev?.id"
+      :nextId="next?.id"
+    />
   </div>
 </template>
 
