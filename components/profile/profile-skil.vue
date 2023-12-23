@@ -19,7 +19,7 @@
 
 <script setup lang="ts">
 import { useUiTextStore } from '@/store/ui-text';
-import { UiTextGroup } from '@/types/ui-text';
+import type { UiTextGroup } from '@/types/ui-text';
 
 const uiTextStore = useUiTextStore();
 

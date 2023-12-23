@@ -10,7 +10,7 @@
       />
     </profile-bottom-label-level-2>
   
-    <ul class="list-disc ml-10">
+    <ul class="ml-10 list-disc">
       <li v-for="(item2,i) in item.text" :key="i">
         {{ item2 }}
       </li>
@@ -19,7 +19,7 @@
 </template>
 
 <script setup lang="ts">
-import { UiTextGroup } from '@/types/ui-text';
+import type { UiTextGroup } from '@/types/ui-text';
 
 defineProps({
 

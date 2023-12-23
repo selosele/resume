@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import { UiTextGroup } from '@/types/ui-text';
+import type { UiTextGroup } from '@/types/ui-text';
 
 defineProps({
 

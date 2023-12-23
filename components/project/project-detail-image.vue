@@ -7,8 +7,8 @@
 <script setup lang="ts">
 defineProps({
 
-/** 디테일 이미지 */
-image: String,
+  /** 디테일 이미지 */
+  image: String,
 });
 </script>
 

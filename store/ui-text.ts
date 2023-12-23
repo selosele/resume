@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia';
-import { UiText, UiTextGroup } from '@/types/ui-text.d';
 import uiTextJson from '@/ui-text.json';
+import type { UiText, UiTextGroup } from '@/types/ui-text.d';
 
 /** UI Text store */
 export const useUiTextStore = defineStore('uiText', {
@@ -12,13 +12,6 @@ export const useUiTextStore = defineStore('uiText', {
     /** ui-text.json 파일 로드 */
     load(): void {
       this.json = uiTextJson as UiText;
-    },
-    /** key, id로 객체를 찾아서 반환 */
-    get(key: string, id: string): UiTextGroup {
-      if (this.json.hasOwnProperty(key)) {
-        return (this.json[key].text as UiTextGroup[]).find(d => d.id === id);
-      }
-      return null;
     },
   },
   getters: {

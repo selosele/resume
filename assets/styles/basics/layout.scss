@@ -1,16 +1,16 @@
 html {
-  font-size: 14px;
+  @apply text-[14px];
 
   @media (min-width: 640px) {
-    font-size: 15px;
+    @apply text-[15px];
   }
 
   @media (min-width: 768px) {
-    font-size: 16px;
+    @apply text-[16px];
   }
 
   @media (min-width: 1024px) {
-    font-size: 17px;
+    @apply text-[17px];
   }
 }
 
@@ -22,5 +22,15 @@ body {
 a {
   &:hover {
     @apply underline;
+  }
+}
+
+.content__body {
+  h3 {
+    @apply font-bold text-2xl mb-3;
+  }
+
+  ul {
+    @apply mb-10 ml-10 list-disc;
   }
 }

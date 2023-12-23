@@ -48,9 +48,6 @@ export interface UiTextGroup {
   /** key */
   keyProp?: string;
 
-  /** 아이디 */
-  id?: string;
-
   /** URL */
   url?: string;
 

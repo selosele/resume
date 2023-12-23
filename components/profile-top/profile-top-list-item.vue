@@ -22,7 +22,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { useUiTextStore } from '@/store/ui-text';
-import { UiTextGroup } from '@/types/ui-text';
+import type { UiTextGroup } from '@/types/ui-text';
 
 const uiTextStore = useUiTextStore();
 
