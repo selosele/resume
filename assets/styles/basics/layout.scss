@@ -33,4 +33,8 @@ a {
   ul {
     @apply mb-10 ml-10 list-disc;
   }
+
+  a {
+    @apply break-all;
+  }
 }
