@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     target: 'static'
   },
   modules: [
+    '@nuxt/content',
     '@pinia/nuxt',
     'tailwindcss',
   ],
