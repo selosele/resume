@@ -34,49 +34,7 @@
     ]
   },
   "project": {
-    "label": "프로젝트",
-    "text": [
-      {
-        "id": "3",
-        "url": "https://www.ntis.go.kr/outcomes/popup/srchRstList.do",
-        "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1703065071/project_3-min_y8rbwb.png",
-        "label": ["NTIS 홈페이지 기능개발 및 유지보수", "(주)아이비데이타", "KISTI", "2023.06 ~ 2023.12"],
-        "text": [
-          "Spring, Java, JSP, jQuery, Oracle, SVN",
-          "웹 개발자",
-          "국가연구개발성과 파트 백엔드 및 프론트엔드 개발, 유지보수",
-          "특허검증 기능 SOAP → REST API 변경 개발",
-          "검색 기능 개선: 결과 내 재검색 기능 개발",
-          "모바일 친화형 UI/UX 전환으로 인한 프론트엔드 개발"
-        ]
-      },
-      {
-        "id": "2",
-        "url": "",
-        "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1703065070/project_2-min_kvxb5d.jpg",
-        "label": ["한국항공우주연구원 차세대 행정정보시스템 개발", "(주)아이비데이타", "한국항공우주연구원", "2022.08 ~ 2023.06"],
-        "text": [
-          "Spring Boot, Java, Angular, TypeScript, MSSQL, Git",
-          "웹 개발자",
-          "통합포탈 설문 백엔드 개발",
-          "회계관리 파트 결의서 백엔드 및 프론트엔드 개발",
-          "Spring Boot 기반의 Java REST API 개발",
-          "Angular를 활용한 SPA 개발"
-        ]
-      },
-      {
-        "id": "1",
-        "url": "https://d.nts.go.kr/daejeonnts/main.do",
-        "image": "https://res.cloudinary.com/dbrgfvqgb/image/upload/v1703133352/project_1-min_etxptn.png",
-        "label": ["국세청 부속기관 홈페이지 반응형 웹 퍼블리싱", "케이엘정보통신(주)", "국세청", "2020.08 ~ 2021.01"],
-        "text": [
-          "HTML, CSS, JavaScript, jQuery",
-          "웹 퍼블리셔",
-          "다수의 부속기관 홈페이지 메인 퍼블리싱 및 웹 접근성 개선",
-          "지방청/세무서, 국세상담센터, 국세청 영문, 국세청 동영상 TV, 국립조세박물관, 납세자권익24 메인 홈페이지 퍼블리싱"
-        ]
-      }
-    ]
+    "label": "프로젝트"
   },
   "career": {
     "label": "경력",

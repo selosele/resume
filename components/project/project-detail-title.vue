@@ -1,5 +1,5 @@
 <template>
-  <h2 class="relative mb-8 pt-8 pb-8 border-t border-b border-solid font-bold text-4xl text-center break-all">
+  <h2 class="relative mb-8 pt-8 pb-8 border-t border-b border-solid font-bold text-4xl leading-tight text-center">
     <NuxtLink
       to="/"
       :class="['flex justify-center items-center absolute xl:bottom-[1.764705rem] xl:top-auto top-[-18px] left-0',
@@ -9,7 +9,7 @@
       <span class="sr-only">홈으로 가기</span>
     </NuxtLink>
 
-    {{ text[0] }}
+    {{ title }}
   </h2>
 
   <div class="flex flex-wrap justify-center mb-8">
@@ -24,15 +24,21 @@
 <script setup lang="ts">
 const props = defineProps({
 
-  /** 디테일 제목 */
-  text: Array,
+  /** 프로젝트 명 */
+  title: String,
+  /** 재직기업 */
+  company: String,
+  /** 발주처 */
+  orderer: String,
+  /** 기간 */
+  period: String,
 });
 
 /** 서브 타이틀 리스트 */
 const list = [
-  { title: '재직기업', text: props.text[1] as string },
-  { title: '발주처', text: props.text[2] as string },
-  { title: '기간', text: props.text[3] as string },
+  { title: '재직기업', text: props.company },
+  { title: '발주처', text: props.orderer },
+  { title: '기간', text: props.period },
 ];
 </script>
 
