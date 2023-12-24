@@ -31,7 +31,11 @@ a {
   }
 
   ul {
-    @apply mb-10 ml-10 list-disc;
+    @apply ml-10 list-disc;
+  }
+
+  > ul {
+    @apply mb-10;
   }
 
   a {
