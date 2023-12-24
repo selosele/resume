@@ -1,7 +1,7 @@
 <template>
   <li class="xl:w-[calc(33.33%-2rem)] sm:w-[calc(50%-2rem)] w-full">
     <NuxtLink :to="`/projects/${id}`" class="overflow-hidden flex flex-wrap flex-col rounded-md bg-white shadow-md">
-      <p class="overflow-hidden xl:h-[17.6rem] md:h-[240px] sm:h-[200px] h-auto bg-slate-200">
+      <p class="overflow-hidden xl:h-[17.6rem] md:h-[240px] sm:h-[200px] h-[180px] bg-slate-200">
         <img :src="image" alt="" class="w-full">
       </p>
 
