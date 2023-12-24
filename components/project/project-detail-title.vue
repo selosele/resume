@@ -30,7 +30,7 @@ const props = defineProps({
   company: String,
   /** 발주처 */
   orderer: String,
-  /** 기간 */
+  /** 투입기간 */
   period: String,
 });
 
@@ -38,7 +38,7 @@ const props = defineProps({
 const list = [
   { title: '재직기업', text: props.company },
   { title: '발주처', text: props.orderer },
-  { title: '기간', text: props.period },
+  { title: '투입기간', text: props.period },
 ];
 </script>
 
