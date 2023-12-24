@@ -27,15 +27,11 @@ a {
 
 .content__body {
   h3 {
-    @apply font-bold text-2xl mb-3;
+    @apply font-bold text-2xl mt-10 mb-3;
   }
 
   ul {
     @apply ml-10 list-disc;
-  }
-
-  > ul {
-    @apply mb-10;
   }
 
   a {
