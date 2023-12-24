@@ -1,13 +1,21 @@
 <template>
   <h2 :class="['mb-5 leading-9 text-2xl text-blue-900',
                'font-bold border-b-2 border-blue-900']"
+      :id="slotText"
   >
     <slot />
   </h2>
 </template>
 
 <script setup lang="ts">
+import { computed, useSlots } from 'vue';
 
+const slots = useSlots();
+
+/** slot 텍스트 */
+const slotText = computed(() => {
+    return (slots.default()[0].children) as string;
+});
 </script>
 
 <style lang="scss" scoped>
