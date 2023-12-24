@@ -28,8 +28,8 @@
         "text": ["MySQL", "MSSQL", "Oracle"]
       },
       {
-        "label": "형상관리",
-        "text": ["Git", "SVN"]
+        "label": "기타",
+        "text": ["Git", "SVN", "Linux"]
       }
     ]
   },
