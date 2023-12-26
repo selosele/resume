@@ -21,7 +21,7 @@
       },
       {
         "label": "front-end",
-        "text": ["Angular", "JavaScript(ES6)"]
+        "text": ["Angular", "TypeScript", "JavaScript(ES6)"]
       },
       {
         "label": "DBMS",
