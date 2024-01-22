@@ -13,5 +13,5 @@
 
 ## 개발환경 구동 절차
 
-1. `npm install`
+1. `npm install` (생략 가능)
 2. `npm run dev`
