@@ -1,5 +1,9 @@
 # resume
 
+## 접속 URL
+
+- https://selosele.com
+
 ## 작업기간
 
 - 2023.06.18. ~ 2023.07.02.
