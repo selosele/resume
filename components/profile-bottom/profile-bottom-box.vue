@@ -1,7 +1,7 @@
 <template>
-  <div class="overflow-hidden mb-10">
+  <section class="overflow-hidden mb-10">
     <slot />
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
