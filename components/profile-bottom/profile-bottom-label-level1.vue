@@ -3,7 +3,9 @@
                'font-bold border-b-2 border-blue-900']"
       :id="slotText"
   >
-    <slot />
+    <a :href="`#${slotText}`" class="hover:no-underline">
+      <slot />
+    </a>
   </h2>
 </template>
 
@@ -14,7 +16,7 @@ const slots = useSlots();
 
 /** slot 텍스트 */
 const slotText = computed(() => {
-    return (slots.default()[0].children) as string;
+  return (slots.default()[0].children) as string;
 });
 </script>
 
