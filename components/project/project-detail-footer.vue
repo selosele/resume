@@ -1,25 +1,29 @@
 <template>
-  <div class="flex justify-between mt-14">
-    <div>
-      <NuxtLink
-        v-if="prevId"
-        :to="`/projects/${prevId}`"
-        class="block bg-slate-200 px-4 py-1"
-      >
-      이전
-      </NuxtLink>
-    </div>
+  <div class="flex justify-end gap-2 mt-14">
+    <NuxtLink
+      v-if="prevId"
+      :to="`/projects/${prevId}`"
+      class="block bg-slate-200 px-4 py-1"
+    >
+    이전
+    </NuxtLink>
 
-    <div>
-      <NuxtLink
-        v-if="nextId"
-        :to="`/projects/${nextId}`"
-        class="block bg-slate-200 px-4 py-1"
-      >
-      다음
-      </NuxtLink>
-    </div>
+    <NuxtLink
+      v-if="nextId"
+      :to="`/projects/${nextId}`"
+      class="block bg-slate-200 px-4 py-1"
+    >
+    다음
+    </NuxtLink>
+
+    <NuxtLink
+      to="/#프로젝트"
+      class="block bg-slate-200 px-4 py-1"
+    >
+    목록
+    </NuxtLink>
   </div>
+ 
 </template>
 
 <script setup lang="ts">

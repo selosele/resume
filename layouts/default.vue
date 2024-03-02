@@ -1,4 +1,6 @@
 <template>
+  <layout-mobile-header />
+  
   <ui-container>
     <layout-header />
 
