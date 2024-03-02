@@ -1,7 +1,5 @@
 <template>
-  <footer :class="['mt-24 pt-3 px-3',
-                   'border-t-4 border-grey-900']"
-  >
+  <footer class="mt-24 pt-3 px-3 border-t-4">
     <p class="text-base">
       {{ uiTextStore.json['title'] }}
     </p>
