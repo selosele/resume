@@ -1,7 +1,6 @@
 import { defineStore } from 'pinia';
 import uiTextJson from '@/ui-text.json';
 import type { UiText } from '@/types/ui-text.d';
-import type { Toc } from '@/types/toc.d';
 
 /** UI Text store */
 export const useUiTextStore = defineStore('uiText', {
