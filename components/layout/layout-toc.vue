@@ -1,7 +1,9 @@
 <template>
   <div class="w-3/5 absolute top-full right-0 px-12 py-4 bg-stone-50 shadow">
+    <h2 class="ml-[-1.5rem] mb-2 font-bold text-xl">목차</h2>
+
     <ol class="list-decimal">
-      <li v-for="(item,i) in uiTextStore.toc" :key="i">
+      <li v-for="(item,i) in tocStore.toc" :key="i">
         <NuxtLink :to="`#${item.id ?? item.text}`">
           {{ item.text }}
         </NuxtLink>
@@ -11,9 +13,9 @@
 </template>
 
 <script setup lang="ts">
-import { useUiTextStore } from '@/store/ui-text';
+import { useTocStore } from '@/store/toc';
 
-const uiTextStore = useUiTextStore();
+const tocStore = useTocStore();
 </script>
 
 <style lang="scss" scoped>

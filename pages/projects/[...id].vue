@@ -28,8 +28,10 @@
 
 <script setup lang="ts">
 import { useUiTextStore } from '@/store/ui-text';
+import { useTocStore } from '@/store/toc';
 
 const uiTextStore = useUiTextStore();
+const tocStore = useTocStore();
 const route = useRoute();
 const projectId = route.params['id'];
 
@@ -38,7 +40,7 @@ const project = await queryContent('/projects')
   .where({ 'id': projectId })
   .findOne();
 
-uiTextStore.setToc(project.body.toc.links);
+tocStore.set(project.body.toc.links);
 
 /** 프로젝트 상세정보 - 이전, 다음 */
 // 2023.12.23. 운영 환경에서 성능 이슈로 인해 주석처리

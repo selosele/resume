@@ -4,10 +4,12 @@
 
 <script setup lang="ts">
 import { useUiTextStore } from '@/store/ui-text';
+import { useTocStore } from '@/store/toc';
 
 const uiTextStore = useUiTextStore();
+const tocStore = useTocStore();
 
-uiTextStore.setToc([
+tocStore.set([
   { text: uiTextStore.json['introduction'].label as string },
   { text: uiTextStore.json['skil'].label as string },
   { text: uiTextStore.json['project'].label as string },

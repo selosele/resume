@@ -8,17 +8,11 @@ export const useUiTextStore = defineStore('uiText', {
   state: () => ({
     /** ui-text.json 파일 */
     json: {} as UiText,
-    /** 목차 */
-    toc: [] as Toc[],
   }),
   actions: {
     /** ui-text.json 파일 로드 */
     load(): void {
       this.json = uiTextJson as UiText;
-    },
-    /** 목차 설정 */
-    setToc(value: Toc[]): void {
-      this.toc = value;
     },
   },
   getters: {
