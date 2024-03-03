@@ -1,8 +1,8 @@
 <template>
-  <div class="w-3/5 absolute top-full right-0 px-12 py-4 bg-stone-50 shadow">
-    <h2 class="ml-[-1.5rem] mb-2 font-bold text-xl">목차</h2>
+  <div class="w-3/5 absolute top-full right-0 p-4 bg-stone-50 shadow">
+    <h2 class="mb-2 font-bold text-xl">목차</h2>
 
-    <ol class="list-decimal">
+    <ol class="list-decimal pl-8">
       <li v-for="(item,i) in tocStore.toc" :key="i">
         <NuxtLink :to="`#${item.id ?? item.text}`">
           {{ item.text }}
