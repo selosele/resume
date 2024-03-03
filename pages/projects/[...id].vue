@@ -27,10 +27,8 @@
 </template>
 
 <script setup lang="ts">
-import { useUiTextStore } from '@/store/ui-text';
 import { useTocStore } from '@/store/toc';
 
-const uiTextStore = useUiTextStore();
 const tocStore = useTocStore();
 const route = useRoute();
 const projectId = route.params['id'];
