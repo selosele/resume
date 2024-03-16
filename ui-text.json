@@ -29,7 +29,7 @@
       },
       {
         "label": "기타",
-        "text": ["Git", "SVN", "Linux"]
+        "text": ["Git", "SVN", "Linux", "Docker"]
       }
     ]
   },
