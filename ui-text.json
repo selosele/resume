@@ -17,15 +17,15 @@
     "text": [
       {
         "label": "back-end",
-        "text": ["Java", "Spring Boot"]
+        "text": ["Java", "Spring Boot", "Node.js"]
       },
       {
         "label": "front-end",
         "text": ["Angular", "TypeScript", "JavaScript"]
       },
       {
-        "label": "DBMS",
-        "text": ["MySQL", "MSSQL", "Oracle"]
+        "label": "Database",
+        "text": ["SQL", "ORM"]
       },
       {
         "label": "기타",
