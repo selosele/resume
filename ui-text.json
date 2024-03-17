@@ -21,7 +21,7 @@
       },
       {
         "label": "front-end",
-        "text": ["Angular", "TypeScript", "JavaScript"]
+        "text": ["Angular", "Vue.js", "TypeScript"]
       },
       {
         "label": "Database",
