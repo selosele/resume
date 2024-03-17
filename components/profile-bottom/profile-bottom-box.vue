@@ -1,5 +1,5 @@
 <template>
-  <section class="overflow-hidden mb-10">
+  <section class="overflow-hidden mb-8">
     <slot />
   </section>
 </template>
