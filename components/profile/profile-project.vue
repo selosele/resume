@@ -1,6 +1,6 @@
 <template>
   <profile-bottom-box>
-    <profile-bottom-label-level-1>
+    <profile-bottom-label-level-1 :icon="'📚'">
       {{ uiTextStore.json['project'].label }}
     </profile-bottom-label-level-1>
 
