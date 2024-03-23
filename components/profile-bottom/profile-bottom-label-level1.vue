@@ -3,6 +3,7 @@
                'font-bold border-b-2 border-blue-900']"
       :id="slotText"
   >
+    {{ icon }}
     <a :href="`#${slotText}`" class="hover:no-underline">
       <slot />
     </a>
@@ -11,6 +12,12 @@
 
 <script setup lang="ts">
 import { computed, useSlots } from 'vue';
+
+defineProps({
+  
+  /** 아이콘 */
+  icon: String,
+});
 
 const slots = useSlots();
 
