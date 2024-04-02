@@ -23,6 +23,10 @@
 </template>
 
 <script setup lang="ts">
+import { useUiTextStore } from '@/store/ui-text';
+
+const uiTextStore = useUiTextStore();
+
 const props = defineProps({
 
   /** 프로젝트 명 */
@@ -37,9 +41,9 @@ const props = defineProps({
 
 /** 서브 타이틀 리스트 */
 const list = [
-  { title: '재직기업', text: props.company },
-  { title: '발주처', text: props.orderer },
-  { title: '참여기간', text: props.period },
+  { title: uiTextStore.json.project.text[0], text: props.company },
+  { title: uiTextStore.json.project.text[1], text: props.orderer },
+  { title: uiTextStore.json.project.text[2], text: props.period },
 ];
 </script>
 
