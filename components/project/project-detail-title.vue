@@ -41,9 +41,9 @@ const props = defineProps({
 
 /** 서브 타이틀 리스트 */
 const list = [
-  { title: uiTextStore.json.project.text[0], text: props.company },
-  { title: uiTextStore.json.project.text[1], text: props.orderer },
-  { title: uiTextStore.json.project.text[2], text: props.period },
+  { title: uiTextStore.json['project'].text[0], text: props.company },
+  { title: uiTextStore.json['project'].text[1], text: props.orderer },
+  { title: uiTextStore.json['project'].text[2], text: props.period },
 ];
 </script>
 
