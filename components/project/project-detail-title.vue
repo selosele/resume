@@ -1,9 +1,9 @@
 <template>
-  <h2 :class="['relative mb-8 pt-8 pb-8 border-t border-b border-solid',
+  <h2 :class="['relative mb-8 xl:px-12 py-8 border-t border-b border-solid',
                'bg-stone-50', 'font-bold text-4xl leading-tight text-center']">
     <NuxtLink
       to="/#프로젝트"
-      :class="['flex justify-center items-center absolute xl:bottom-[1.764705rem] xl:top-auto top-[-18px] left-0',
+      :class="['flex justify-center items-center absolute xl:top-8 top-[-18px] left-0',
                'w-10 h-10 rounded-full bg-gray-800 text-slate-50 text-3xl hover:no-underline']"
     >
       <ui-icon :name="'xi-long-arrow-left'" />
