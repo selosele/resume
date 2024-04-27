@@ -10,8 +10,8 @@
       />
 
       <!-- 스킬 -->
-      <profile-skil
-        v-if="uiTextStore.hasProperty('skil')"
+      <profile-skill
+        v-if="uiTextStore.hasProperty('skill')"
         class="lg:w-[calc(50%-2rem)]"
       />
 

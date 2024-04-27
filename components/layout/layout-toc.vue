@@ -3,11 +3,13 @@
     <h2 class="mb-2 font-bold text-xl">목차</h2>
 
     <ol class="list-decimal pl-8">
-      <li v-for="(item,i) in tocStore.toc" :key="i">
-        <NuxtLink :to="`#${item.id ?? item.text}`">
-          {{ item.text }}
-        </NuxtLink>
-      </li>
+      <template v-for="(item,i) in tocStore.toc" :key="i">
+        <li v-if="item.text !== null">
+          <NuxtLink :to="`#${item.id ?? item.text}`">
+            {{ item.text }}
+          </NuxtLink>
+        </li>
+      </template>
     </ol>
   </div>
 </template>

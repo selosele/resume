@@ -32,7 +32,7 @@ export interface UiText {
   introduction?: UiTextGroup;
 
   /** 스킬 */
-  skil?: UiTextGroup;
+  skill?: UiTextGroup;
 
   /** 경력 */
   career?: UiTextGroup;
