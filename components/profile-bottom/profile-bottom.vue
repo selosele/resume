@@ -26,6 +26,16 @@
     <profile-career
       v-if="uiTextStore.hasProperty('career')"
     />
+
+    <!-- 학력 -->
+    <profile-education
+      v-if="uiTextStore.hasProperty('education')"
+    />
+
+    <!-- 기타 -->
+    <profile-etc
+      v-if="uiTextStore.hasProperty('etc')"
+    />
     
   </div>
 </template>

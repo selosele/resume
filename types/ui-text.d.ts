@@ -40,6 +40,12 @@ export interface UiText {
   /** 프로젝트 */
   project?: UiTextGroup;
 
+  /** 학력 */
+  education?: UiTextGroup;
+
+  /** 기타 */
+  etc?: UiTextGroup;
+
 }
 
 /** UI Text Group 인터페이스 */
