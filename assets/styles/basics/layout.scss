@@ -34,6 +34,14 @@ a {
     @apply ml-10 list-disc;
   }
 
+  #기술 + ul {
+    @apply flex flex-wrap gap-1 ml-0 list-none;
+
+    li {
+      @apply inline-block px-[0.6rem] py-[0.125rem] bg-slate-200 text-base rounded;
+    }
+  }
+
   a {
     @apply break-all;
   }
