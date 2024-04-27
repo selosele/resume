@@ -1,6 +1,6 @@
 <template>
   <profile-bottom-box>
-    <profile-bottom-label-level-1 :icon="'📁'">
+    <profile-bottom-label-level-1 :icon="'👔'">
       {{ uiTextStore.json['career'].label }}
     </profile-bottom-label-level-1>
 
