@@ -17,7 +17,7 @@
     </NuxtLink>
 
     <NuxtLink
-      to="/#프로젝트"
+      to="/#주요 프로젝트"
       class="block bg-slate-200 px-4 py-1"
     >
     목록

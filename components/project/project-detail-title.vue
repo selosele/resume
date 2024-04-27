@@ -2,7 +2,7 @@
   <h2 :class="['relative mb-8 xl:px-12 py-8 border-t border-b border-solid',
                'bg-stone-50', 'font-bold text-4xl leading-tight text-center']">
     <NuxtLink
-      to="/#프로젝트"
+      to="/#주요 프로젝트"
       :class="['flex justify-center items-center absolute xl:top-8 top-[-18px] left-0',
                'w-10 h-10 rounded-full bg-gray-800 text-slate-50 text-3xl hover:no-underline']"
     >
