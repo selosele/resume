@@ -31,7 +31,7 @@ export interface UiText {
   /** 소개 */
   introduction?: UiTextGroup;
 
-  /** 보유 기술 */
+  /** 스킬 */
   skil?: UiTextGroup;
 
   /** 경력 */

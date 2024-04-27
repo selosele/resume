@@ -9,7 +9,7 @@
         class="lg:w-[calc(50%-2rem)]"
       />
 
-      <!-- 보유 기술 -->
+      <!-- 스킬 -->
       <profile-skil
         v-if="uiTextStore.hasProperty('skil')"
         class="lg:w-[calc(50%-2rem)]"
