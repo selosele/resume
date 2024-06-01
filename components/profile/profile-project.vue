@@ -5,7 +5,7 @@
     </profile-bottom-label-level-1>
 
     <profile-bottom-text>
-      <p class="mb-5">
+      <p class="mb-[0.66177rem]">
         참여한 프로젝트를 최신 순으로 구성했습니다. 각 항목을 클릭하면 주요 내용 / 역할&amp;기여도 / 기간 등을 확인할 수 있습니다.
       </p>
 
