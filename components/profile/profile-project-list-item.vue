@@ -2,7 +2,7 @@
   <li :class="{ 'mt-7': 0 < ($.vnode.key as number) }">
     <NuxtLink
       :to="`/projects/${id}`"
-      :class="['p-5 overflow-hidden flex flex-wrap flex-col rounded-md bg-white border border-solid shadow-md', 
+      :class="['p-4 overflow-hidden flex flex-wrap flex-col rounded-md bg-white border border-solid shadow-md', 
                'hover:no-underline hover:border-blue-300 hover:bg-blue-50']"
     >
       <profile-bottom-label-level-2
