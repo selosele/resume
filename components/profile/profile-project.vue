@@ -6,15 +6,16 @@
 
     <profile-bottom-text>
       <p class="mb-5">
-        참여한 프로젝트를 최신 순으로 구성했습니다. 각 이미지를 클릭하면 주요 내용 / 역할&amp;기여도 / 기간 등을 확인할 수 있습니다.
+        참여한 프로젝트를 최신 순으로 구성했습니다. 각 항목을 클릭하면 주요 내용 / 역할&amp;기여도 / 기간 등을 확인할 수 있습니다.
       </p>
 
-      <ul class="flex flex-wrap gap-8 p-[0.58823rem] sm:w-[calc(100%+2rem)]">
+      <ul class="p-[0.58823rem]">
         <profile-project-list-item
           v-for="(item,i) in projects" :key="i"
           :id="item.id"
           :title="item.title"
-          :image="item.img"
+          :orderer="item.orderer"
+          :period="item.period"
         />
       </ul>
     </profile-bottom-text>
@@ -28,7 +29,7 @@ const uiTextStore = useUiTextStore();
 
 /** 프로젝트 리스트 */
 const projects = await queryContent('/projects')
-  .only(['id', 'title', 'img'])
+  .only(['id', 'title', 'company', 'orderer', 'period'])
   .sort({ id: -1 })
   .find();
 </script>

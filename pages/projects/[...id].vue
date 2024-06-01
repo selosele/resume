@@ -8,6 +8,7 @@
 
   <div class="content__body xl:w-[58.823529rem] mx-auto">
     <project-detail-image
+      v-if="project.img"
       :image="project.img"
     />
 

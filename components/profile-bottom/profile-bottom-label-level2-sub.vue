@@ -2,8 +2,8 @@
   <span class="xs:inline block">
     <template v-for="(item,i) in text" :key="i">
       <span v-if="0 === i" class="hidden xs:inline ml-1 mr-2 align-middle font-light">-</span>
-      <span v-if="1 === i" class="ml-[0.35rem] mr-[0.35rem] text-gray-400 font-light text-lg">|</span>
-      <span v-if="2 === i" class="ml-[0.35rem] mr-[0.35rem] text-gray-400 font-light text-lg">|</span>
+      <profile-bottom-pipe v-if="1 === i" />
+      <profile-bottom-pipe v-if="2 === i" />
     
       <span :class="['text-lg font-normal',
                     { 'text-blue-900': 0 === i },

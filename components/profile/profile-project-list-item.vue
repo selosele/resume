@@ -1,15 +1,28 @@
 <template>
-  <li class="xl:w-[calc(33.33%-2rem)] sm:w-[calc(50%-2rem)] w-full">
-    <NuxtLink :to="`/projects/${id}`" class="overflow-hidden flex flex-wrap flex-col rounded-md bg-white border border-solid shadow-md">
-      <p class="overflow-hidden xl:h-[17.6470588rem] md:h-[240px] sm:h-[200px] h-[180px] bg-slate-200 border-b border-solid">
-        <img :src="image" alt="" class="w-full">
-      </p>
-
+  <li :class="{ 'mt-7': 0 < ($.vnode.key as number) }">
+    <NuxtLink
+      :to="`/projects/${id}`"
+      :class="['p-5 overflow-hidden flex flex-wrap flex-col rounded-md bg-white border border-solid shadow-md', 
+               'hover:no-underline hover:border-blue-300 hover:bg-blue-50']"
+    >
       <profile-bottom-label-level-2
-        class="w-full mb-0 p-3 truncate"
+        class="w-full truncate"
       >
         {{ title }}
       </profile-bottom-label-level-2>
+
+      <p>
+        <template v-for="(item,i) in [orderer,period]" :key="i">
+          <profile-bottom-pipe v-if="0 < i" />
+          
+          <span :class="['text-lg font-normal',
+                        { 'text-blue-900': 0 === i },
+                        { 'text-gray-500': 1 === i },
+                        { 'text-gray-500': 2 === i }]"
+          >{{ item }}
+          </span>
+        </template>
+      </p>
     </NuxtLink>
   </li>
 </template>
@@ -21,8 +34,10 @@ defineProps({
   id: String,
   /** 프로젝트 명 */
   title: String,
-  /** 프로젝트 이미지 경로 */
-  image: String,
+  /** 프로젝트 발주처 */
+  orderer: String,
+  /** 프로젝트 참여기간 */
+  period: String,
 });
 </script>
 
