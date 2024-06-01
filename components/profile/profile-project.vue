@@ -29,7 +29,7 @@ const uiTextStore = useUiTextStore();
 
 /** 프로젝트 리스트 */
 const projects = await queryContent('/projects')
-  .only(['id', 'title', 'company', 'orderer', 'period'])
+  .only(['id', 'title', 'orderer', 'period'])
   .sort({ id: -1 })
   .find();
 </script>
