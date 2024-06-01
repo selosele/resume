@@ -57,6 +57,11 @@ a {
     margin-right: 0.5rem;
   }
 
+  #url:before {
+    content: "🔗";
+    margin-right: 0.5rem;
+  }
+
   a {
     @apply break-all;
   }
