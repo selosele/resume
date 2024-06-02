@@ -1,17 +1,17 @@
 <template>
-  <li class="xs:w-[calc(50%-1.75rem)] w-full">
+  <li class="flex flex-wrap xs:gap-4 gap-1 w-full">
     <profile-bottom-label-level-2
-      class="mb-1"
+      class="mb-1 px-2 bg-blue-300"
     >
       {{ item.label }}
     </profile-bottom-label-level-2>
   
-    <p class="flex flex-wrap gap-1">
+    <p class="flex flex-wrap gap-1 xs:w-auto w-full">
       <span
         v-for="(item2,i) in item.text" :key="i"
-        class="px-[0.6rem] py-[0.125rem] bg-blue-300 text-base rounded"
+        class="flex items-center px-2 text-base text-blue-900"
         >
-        {{ item2 }}
+        #{{ item2 }}
       </span>
     </p>
   </li>

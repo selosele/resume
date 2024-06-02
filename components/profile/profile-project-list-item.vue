@@ -6,7 +6,7 @@
                'hover:no-underline hover:border-blue-300 hover:bg-blue-50']"
     >
       <profile-bottom-label-level-2
-        class="w-full truncate"
+        class="w-full"
       >
         {{ title }}
       </profile-bottom-label-level-2>
