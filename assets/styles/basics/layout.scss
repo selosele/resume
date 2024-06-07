@@ -35,13 +35,11 @@ a {
   }
 
   #역할:before {
-    content: "🔎";
-    margin-right: 0.5rem;
+    @apply mr-2 content-["🔎"];
   }
 
   #기술:before {
-    content: "🔧";
-    margin-right: 0.5rem;
+    @apply mr-2 content-["🔧"];
   }
 
   #기술 + ul {
@@ -53,13 +51,11 @@ a {
   }
 
   #성과:before {
-    content: "📚";
-    margin-right: 0.5rem;
+    @apply mr-2 content-["📚"];
   }
 
   #url:before {
-    content: "🔗";
-    margin-right: 0.5rem;
+    @apply mr-2 content-["🔗"];
   }
 
   a {
