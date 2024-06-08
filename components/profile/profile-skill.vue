@@ -5,7 +5,7 @@
     </profile-bottom-label-level-1>
 
     <profile-bottom-text>
-      <ul class="flex flex-wrap gap-7 xs:justify-center">
+      <ul class="flex flex-wrap gap-6 xs:justify-center">
         <profile-skill-list-item
           v-for="(item,i) in list" :key="i"
           :item="item"
