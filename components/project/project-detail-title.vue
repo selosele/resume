@@ -26,6 +26,7 @@
 import { useUiTextStore } from '@/store/ui-text';
 
 const uiTextStore = useUiTextStore();
+const texts = uiTextStore.json['project'].text[1];
 
 const props = defineProps({
 
@@ -41,9 +42,9 @@ const props = defineProps({
 
 /** 서브 타이틀 리스트 */
 const list = [
-  { title: uiTextStore.json['project'].text[0], text: props.company },
-  { title: uiTextStore.json['project'].text[1], text: props.orderer },
-  { title: uiTextStore.json['project'].text[2], text: props.period },
+  { title: texts[0], text: props.company },
+  { title: texts[1], text: props.orderer },
+  { title: texts[2], text: props.period },
 ];
 </script>
 
