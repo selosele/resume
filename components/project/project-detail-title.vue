@@ -3,6 +3,7 @@
                'bg-stone-50', 'font-bold text-4xl leading-tight text-center']">
     <NuxtLink
       to="/#주요 프로젝트"
+      id="btnGoList"
       :class="['flex justify-center items-center absolute xl:top-10 top-[-18px] left-0',
                'w-10 h-10 rounded-full bg-gray-800 text-slate-50 text-3xl hover:no-underline']"
     >

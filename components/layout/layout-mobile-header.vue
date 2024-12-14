@@ -1,5 +1,5 @@
 <template>
-  <div class="xl:hidden block sticky z-10 top-0">
+  <div id="layoutMobileHeader" class="xl:hidden block sticky z-10 top-0">
     <div class="flex justify-between bg-gray-200 px-4">
       <button type="button" @click="navigateHome">
         <ui-icon :name="'xi-home'" />

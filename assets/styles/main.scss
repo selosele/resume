@@ -1,5 +1,13 @@
 // Tailwind CSS
 @import 'tailwindcss/base';
+
+// 2024.12.14. 화면을 PDF로 다운로드 시, Tailwind CSS의 img 태그 설정 무시로 인해 PDF 화면이 틀어지는 문제로 인해 추가
+@layer base {
+  img {
+    @apply inline-block;
+  }
+}
+
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 

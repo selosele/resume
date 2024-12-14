@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-end gap-2 mt-14">
+  <div id="detailBtns" class="flex justify-end gap-2 mt-14">
     <NuxtLink
       v-if="prevId"
       :to="`/projects/${prevId}`"
