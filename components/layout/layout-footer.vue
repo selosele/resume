@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex items-center justify-between mt-24 pt-3 px-3 border-t-4">
+  <footer class="flex items-center justify-between flex-wrap gap-2 mt-24 pt-3 px-3 border-t-4">
     <p class="text-base">
       {{ uiTextStore.json['title'] }}
     </p>
