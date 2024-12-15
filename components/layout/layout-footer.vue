@@ -19,10 +19,13 @@
 <script setup lang="ts">
 import jsPDF from 'jspdf';
 import html2canvas from 'html2canvas';
+
 import { useUiTextStore } from '@/store/ui-text';
+import { useUiLoadingStore } from '@/store/ui-loading';
 
 const route = useRoute();
 const uiTextStore = useUiTextStore();
+const uiLoadingStore = useUiLoadingStore();
 
 /** 화면을 PDF로 다운받는다. */
 const exportPdf = async () => {
@@ -40,6 +43,8 @@ const exportPdf = async () => {
     }
   };
 
+  uiLoadingStore.show();
+
   const canvas = await html2canvas(document.body, options);
   const imgData = canvas.toDataURL('image/png');
   const pdf = new jsPDF();
@@ -49,6 +54,8 @@ const exportPdf = async () => {
   
   // PDF 다운로드
   pdf.save(`${uiTextStore.json['title']}.pdf`);
+
+  uiLoadingStore.hide();
 };
 
 /** 페이지별 PDF width값 반환 */
