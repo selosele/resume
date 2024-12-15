@@ -8,6 +8,8 @@
 
     <layout-footer />
   </ui-container>
+
+  <ui-loading />
 </template>
 
 <script setup lang="ts">
