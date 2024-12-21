@@ -19,7 +19,7 @@ tocStore.set([
 ]);
 
 /** 목차 텍스트 반환 */
-function getText(key: string) {
+function getText(key: string): string {
   if (uiTextStore.hasProperty(key)) {
     return uiTextStore.json[key].label as string;
   }
