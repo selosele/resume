@@ -36,7 +36,7 @@ const tocStore = useTocStore();
 const route = useRoute();
 const projectId = route.params['id'][0];
 
-uiLoadingStore.show();
+setTimeout(() => uiLoadingStore.show(), 500);
 
 /** 프로젝트 상세정보 */
 const project = await queryContent('/projects')
