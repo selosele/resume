@@ -63,7 +63,7 @@ const getPdfWidth = () => {
   if (route.path.indexOf('/projects/') > -1) { // 프로젝트 상세조회 화면
     return 1000;
   }
-  return 1520;
+  return 1420;
 };
 </script>
 
