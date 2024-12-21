@@ -37,13 +37,14 @@ const route = useRoute();
 const projectId = route.params['id'][0];
 
 // 프로젝트 상세정보 조회시 0.5초 이상 소요될 때만 로딩 UI를 표출 
-setTimeout(() => uiLoadingStore.show(), 500);
+const loadingTimer = setTimeout(() => uiLoadingStore.show(), 500);
 
 /** 프로젝트 상세정보 */
 const project = await queryContent('/projects')
   .where({ 'id': projectId, 'publish': true })
   .findOne();
 
+clearTimeout(loadingTimer);
 uiLoadingStore.hide();
 
 tocStore.set(project.body.toc.links);
