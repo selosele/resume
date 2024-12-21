@@ -40,7 +40,7 @@ uiLoadingStore.show();
 
 /** 프로젝트 상세정보 */
 const project = await queryContent('/projects')
-  .where({ 'id': projectId })
+  .where({ 'id': projectId, 'publish': true })
   .findOne();
 
 uiLoadingStore.hide();

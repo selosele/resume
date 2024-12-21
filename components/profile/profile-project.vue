@@ -30,6 +30,7 @@ const uiTextStore = useUiTextStore();
 /** 프로젝트 리스트 */
 const projects = await queryContent('/projects')
   .only(['id', 'title', 'orderer', 'period'])
+  .where({ 'publish': true })
   .sort({ sort: -1 })
   .find();
 </script>
