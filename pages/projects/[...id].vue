@@ -29,15 +29,21 @@
 
 <script setup lang="ts">
 import { useTocStore } from '@/store/toc';
+import { useUiLoadingStore } from '@/store/ui-loading';
 
+const uiLoadingStore = useUiLoadingStore();
 const tocStore = useTocStore();
 const route = useRoute();
-const projectId = route.params['id'];
+const projectId = route.params['id'][0];
+
+uiLoadingStore.show();
 
 /** 프로젝트 상세정보 */
 const project = await queryContent('/projects')
   .where({ 'id': projectId })
   .findOne();
+
+uiLoadingStore.hide();
 
 tocStore.set(project.body.toc.links);
 
@@ -48,7 +54,7 @@ tocStore.set(project.body.toc.links);
 
 // const [prev, next] = await queryContent()
 //   .only(['id'])
-//   .sort({ id: -1 })
+//   .sort({ sort: -1 })
 //   .findSurround(`/projects/${projectId}`);
 </script>
 
