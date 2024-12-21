@@ -1,5 +1,6 @@
 ---
-id: '2'
+id: 'kari'
+sort: 2
 title: 'KARI 차세대 행정정보시스템 구축 사업'
 company: '㈜아이비데이타'
 orderer: '한국항공우주연구원'
