@@ -42,4 +42,4 @@ period: '2023.06 ~ 2023.12 (백엔드 개발자)'
 
 ### URL
 
-- https://www.ntis.go.kr/outcomes/popup/srchRstList.do
+- [NTIS > 국가연구개발성과](https://www.ntis.go.kr/outcomes/popup/srchRstList.do)
