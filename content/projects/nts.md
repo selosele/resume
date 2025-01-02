@@ -1,5 +1,5 @@
 ---
-# publish: false
+publish: true
 id: 'nts'
 sort: 1
 title: '국세청 홈페이지 전면개편 사업'
